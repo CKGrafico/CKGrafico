@@ -12,7 +12,7 @@
 </p>
 
 I'm another one Indie Frontend Developer 🤹🏻‍♂️
-<br />Join me to in this adventure creating Libraries, Apps and some Games using Frontend Technologies.
+<br />Join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## My most liked projects:
 
@@ -22,7 +22,7 @@ I'm another one Indie Frontend Developer 🤹🏻‍♂️
 
 If some of these project helped you or tou your company you can [sponsor me](https://github.com/sponsors/CKGrafico).
 
-## Technolodies
+## Technologies
 
 <p align="left">
 <img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/javascript.svg" alt="JavaScript" width="25" height="25" />
@@ -32,5 +32,7 @@ If some of these project helped you or tou your company you can [sponsor me](htt
 <img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/docker.svg" alt="Docker" width="25" height="25" />
 <img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/terraform.svg" alt="Terraform" width="25" height="25" />
 </p>
+
+## More about me
 
 ![CKGrafico's GitHub stats](https://github-readme-stats.vercel.app/api?username=ckgrafico&show_icons=true&theme=vue)
