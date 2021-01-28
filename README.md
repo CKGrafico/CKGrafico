@@ -1,16 +1,36 @@
-### Hi there 👋
+<p align="center">
+  <img src="" width="1280" title="Hi I'm Quique">
+</p>
 
-<!--
-**CKGrafico/CKGrafico** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://ckgrafico.medium.com/">Medium</a> •
+  <a href="https://ckgrafico.com">Website</a> •
+  <a href="https://twitter.com/ckgrafico">Twitter</a> •
+  <br />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I'm another one Indie Frontend Developer 🤹🏻‍♂️
+<br />Join me to in this adventure creating Libraries, Apps and some Games using Frontend Technologies.
+
+## My most liked projects:
+
+- 🟠 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
+- 🟠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
+- 🟠 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
+
+If some of these project helped you or tou your company you can [sponsor me](https://github.com/sponsors/CKGrafico).
+
+## Technolodies
+
+<p align="left">
+<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/javascript.svg" alt="JavaScript" width="25" height="25" />
+<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/typescript.svg" alt="TypeScript" width="25" height="25" />
+<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/nodejs_alt.svg" alt="Nodejs" width="25" height="25" />
+<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/azure.svg" alt="Azure" width="25" height="25" />
+<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/docker.svg" alt="Docker" width="25" height="25" />
+<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/terraform.svg" alt="Terraform" width="25" height="25" />
+</p>
+
+![CKGrafico's GitHub stats](https://github-readme-stats.vercel.app/api?username=ckgrafico&show_icons=true&theme=vue)
