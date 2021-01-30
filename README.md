@@ -22,7 +22,7 @@ I'm another one Indie Frontend Developer 🤹🏻‍♂️
 - 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
 
 
-## My most liked projects:
+## Some projects I'm proud of:
 
 - 🟠 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
 - 🟠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
@@ -30,7 +30,7 @@ I'm another one Indie Frontend Developer 🤹🏻‍♂️
 
 If some of these project helped you or tou your company you can [sponsor me](https://github.com/sponsors/CKGrafico).
 
-## Technologies
+## I really like these technologies
 
 <p align="left">
 <img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/javascript.svg" alt="JavaScript" width="25" height="25" />
