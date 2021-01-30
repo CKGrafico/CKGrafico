@@ -14,6 +14,16 @@
 I'm another one Indie Frontend Developer 🤹🏻‍♂️
 <br />Join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
+## Who I am:
+
+Indie Frontend Dev 🤹🏻‍♂️ 
+
+- 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
+- 🔮 Newbie [Twitch](https://www.twitch.tv/ckgrafico) streamer
+- 🟠 Happy [HelpDev](https://Helpdev.org) founder 
+- 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
+
+
 ## My most liked projects:
 
 - 🟠 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
