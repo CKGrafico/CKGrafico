@@ -28,7 +28,7 @@ I'm another one Indie Frontend Developer 🤹🏻‍♂️
 - 🛠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
 - 🧩 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
 
-If some of these project helped you or tou your company you can 💗**[sponsor me](https://github.com/sponsors/CKGrafico)**.
+If some of these project helped you or tou your company you can 💗 **[sponsor me](https://github.com/sponsors/CKGrafico)**.
 
 ## I really like these technologies
 
