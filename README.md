@@ -24,9 +24,9 @@ I'm another one Indie Frontend Developer 🤹🏻‍♂️
 
 ## Some projects I'm proud of:
 
-- 🟠 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
-- 🟠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
-- 🟠 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
+- 🍱 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
+- 🛠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
+- 🧩 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
 
 If some of these project helped you or tou your company you can [sponsor me](https://github.com/sponsors/CKGrafico).
 
