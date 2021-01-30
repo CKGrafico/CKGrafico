@@ -44,4 +44,4 @@ If some of these project helped you or tou your company you can 💗 **[sponsor 
 ## More about me
 
 ![CKGrafico's GitHub stats](https://github-readme-stats.vercel.app/api?username=ckgrafico&show_icons=true&theme=vue)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ckgrafico&layout=compact)]
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ckgrafico&layout=compact)
