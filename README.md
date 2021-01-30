@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/JHN0m9r.png" width="1280" title="Hi I'm Quique">
 </p>
 
-### I'm another one Indie Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
+### Just another Indie Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## More about me:
 
