@@ -4,13 +4,6 @@
 
 #
 
-<p align="center">
-  <a href="https://ckgrafico.medium.com/">Medium</a> •
-  <a href="https://ckgrafico.com">Website</a> •
-  <a href="https://twitter.com/ckgrafico">Twitter</a> •
-  <br />
-</p>
-
 I'm another one Indie Frontend Developer 🤹🏻‍♂️
 <br />Join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
@@ -20,9 +13,9 @@ I'm another one Indie Frontend Developer 🤹🏻‍♂️
 - 🔮 Newbie [Twitch](https://www.twitch.tv/ckgrafico) streamer
 - 🟠 Happy [HelpDev](https://Helpdev.org) founder 
 - 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
-- 🌍 Curious [Twitter](https://developers.google.com/community/experts) writer
-- 🌍 Casual [Medium](https://ckgrafico.medium.com) editor
-- 🌍 Check [my Website](https://ckgrafico.com) ^^
+- 🐦 Curious [Twitter](https://developers.google.com/community/experts) writer
+- ✒ Casual [Medium](https://ckgrafico.medium.com) editor
+- 🖥 Check [my Website](https://ckgrafico.com) ^^
 
 
 ## Some projects I'm proud of:
