@@ -1,10 +1,8 @@
 <p align="center">
-  <img src="" width="1280" title="Hi I'm Quique">
+  <img src="https://i.imgur.com/Y79GXKW.jpg" width="1280" title="Hi I'm Quique">
 </p>
 
-#
-
-I'm another one Indie Frontend Developer 🤹🏻‍♂️
+### I'm another one Indie Frontend Developer 🤹🏻‍♂️
 <br />Join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## More about me:
