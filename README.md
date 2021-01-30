@@ -14,9 +14,7 @@
 I'm another one Indie Frontend Developer 🤹🏻‍♂️
 <br />Join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
-## Who I am:
-
-Indie Frontend Dev 🤹🏻‍♂️ 
+## More about me:
 
 - 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
 - 🔮 Newbie [Twitch](https://www.twitch.tv/ckgrafico) streamer
