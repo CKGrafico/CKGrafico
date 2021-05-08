@@ -10,7 +10,7 @@
 - 🔮 Newbie [Twitch](https://www.twitch.tv/ckgrafico) streamer
 - 🟠 Happy [HelpDev](https://Helpdev.org) founder 
 - 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
-- 🐦 Curious [Twitter](https://developers.google.com/community/experts) writer
+- 🐦 Curious [Twitter](https://twitter.com/ckgrafico) writer
 - ✒ Casual [Medium](https://ckgrafico.medium.com) editor
 - 🖥 Check [my Website](https://ckgrafico.com) ^^
 
