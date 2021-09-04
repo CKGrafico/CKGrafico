@@ -5,7 +5,7 @@
 ### Just another Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## More about me:
-Software Development Engineer at [Plain Concepts](https://www.plainconcepts.com/) 🇪🇸
+Software Development Engineer at [Plain Concepts](https://www.plainconcepts.com/) 🐷
 
 - 🤹🏻‍♂️ Frontend Developer
 - 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
