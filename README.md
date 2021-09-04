@@ -5,9 +5,10 @@
 ### Just another Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## More about me:
+Software Development Engineer @PlainConcepts 🇪🇸
 
+- 🤹🏻‍♂️ Frontend Developer
 - 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
-- 🔮 Newbie [Twitch](https://www.twitch.tv/ckgrafico) streamer
 - 🟠 Happy [HelpDev](https://Helpdev.org) founder 
 - 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
 - 🐦 Curious [Twitter](https://twitter.com/ckgrafico) writer
