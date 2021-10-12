@@ -5,8 +5,7 @@
 ### Just another Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## More about me:
-I'm from Spain 🇪🇸 and I started my career as a Frontend Developer
-I'm am currently working as a Director of Engineering at [Plain Concepts](https://www.plainconcepts.com/) Romania 🇷🇴🐷
+I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm currently working as a Director of Engineering at [Plain Concepts](https://www.plainconcepts.com/) Romania 🇷🇴🐷.
 
 - 🤹🏻‍♂️ Frontend Developer
 - 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
