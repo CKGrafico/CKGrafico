@@ -5,7 +5,8 @@
 ### Just another Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
 
 ## More about me:
-Software Development Engineer at [Plain Concepts](https://www.plainconcepts.com/) 🐷
+I'm from Spain 🇪🇸 and I started my career as a Frontend Developer
+I'm am currently working as a Director of Engineering at [Plain Concepts](https://www.plainconcepts.com/) Romania 🇷🇴🐷
 
 - 🤹🏻‍♂️ Frontend Developer
 - 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
@@ -18,6 +19,7 @@ Software Development Engineer at [Plain Concepts](https://www.plainconcepts.com/
 
 ## Some projects I'm proud of:
 
+- 🔭 [Remote Teams](https://github.com/CKGrafico/remote-teams)
 - 🍱 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
 - 🛠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
 - 🧩 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
@@ -27,12 +29,12 @@ If some of these project helped you or tou your company you can 💗 **[sponsor 
 ## I really like these technologies
 
 <p align="left">
-<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/javascript.svg" alt="JavaScript" width="25" height="25" />
-<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/typescript.svg" alt="TypeScript" width="25" height="25" />
-<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/nodejs_alt.svg" alt="Nodejs" width="25" height="25" />
-<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/azure.svg" alt="Azure" width="25" height="25" />
-<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/docker.svg" alt="Docker" width="25" height="25" />
-<img src="https://github.com/PKief/vscode-material-icon-theme/blob/master/icons/terraform.svg" alt="Terraform" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg" alt="JavaScript" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/typescript.svg" alt="TypeScript" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/nodejs_alt.svg" alt="Nodejs" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/azure.svg" alt="Azure" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/docker.svg" alt="Docker" width="25" height="25" />
+<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/terraform.svg" alt="Terraform" width="25" height="25" />
 </p>
 
 ## More about me
