@@ -18,7 +18,9 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 
 ## Some projects I'm proud of:
 
+- 👨🏻‍🏫 [Talent for your Event](https://github.com/CKGrafico/talentforyourevent)
 - 🔭 [Remote Teams](https://github.com/CKGrafico/remote-teams)
+- 🟠 [Help Dev](https://github.com/helpdev)
 - 🍱 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
 - 🛠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
 - 🧩 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
