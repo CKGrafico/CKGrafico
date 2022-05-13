@@ -2,12 +2,10 @@
   <img src="https://i.imgur.com/JHN0m9r.png" width="1280" title="Hi I'm Quique">
 </p>
 
-### Just another Frontend Developer 🤹🏻‍♂️, join me on this adventure creating Libraries, Apps and some Games using Frontend Technologies.
-
 ## More about me:
 I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm currently working as a Director of Engineering at [Plain Concepts](https://www.plainconcepts.com/) Romania 🇷🇴🐷.
 
-- 🤹🏻‍♂️ Frontend Developer
+- 🤹🏻‍♂️ Frontend Lover
 - 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
 - 🟠 Happy [HelpDev](https://Helpdev.org) founder 
 - 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
