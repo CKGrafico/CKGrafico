@@ -14,9 +14,13 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 - 🖥 Check [my Website](https://ckgrafico.com) ^^
 
 
+## Currently working on:
+
+- 🥯 [Papanasi Universal UI Library](https://github.com/CKGrafico/papanasi)
+- 👨🏻‍🏫 [Talent for your Event](https://github.com/CKGrafico/talentforyourevent)
+
 ## Some projects I'm proud of:
 
-- 👨🏻‍🏫 [Talent for your Event](https://github.com/CKGrafico/talentforyourevent)
 - 🔭 [Remote Teams](https://github.com/CKGrafico/remote-teams)
 - 🟠 [Storyblok HelpDev Components](https://github.com/HelpDev/Storyblok-Components)
 - 🍱 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
