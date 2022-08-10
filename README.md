@@ -29,18 +29,5 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 
 If some of these project helped you or tou your company you can 💗 **[sponsor me](https://github.com/sponsors/CKGrafico)**.
 
-## I really like these technologies
-
-<p align="left">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/javascript.svg" alt="JavaScript" width="25" height="25" />
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/typescript.svg" alt="TypeScript" width="25" height="25" />
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/nodejs_alt.svg" alt="Nodejs" width="25" height="25" />
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/azure.svg" alt="Azure" width="25" height="25" />
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/docker.svg" alt="Docker" width="25" height="25" />
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/terraform.svg" alt="Terraform" width="25" height="25" />
-</p>
-
-## More about me
-
-![CKGrafico's GitHub stats](https://github-readme-stats.vercel.app/api?username=ckgrafico&show_icons=true&theme=vue)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ckgrafico&layout=compact)
+![Metrics](https://metrics.lecoq.io/ckgrafico?template=classic&isocalendar=1&languages=1&stars=1&base.indepth=false&base.hireable=false&isocalendar.duration=half-year&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&stars.limit=4&config.timezone=Europe%2FBucharest)
+![Metrics2](https://metrics.lecoq.io/ckgrafico?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&languages=1&tweets=1&notable=1&achievements=1&people=1&followup=1&activity=1&base.indepth=false&base.hireable=false&languages.limit=8&languages.threshold=0%25&languages.other=false&languages.colors=github&languages.sections=most-used&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&followup.sections=repositories&followup.indepth=false&followup.archived=true&people.limit=24&people.identicons=false&people.identicons.hide=false&people.size=28&people.types=followers&people.shuffle=false&activity.limit=5&activity.load=300&activity.days=14&activity.visibility=all&activity.timestamps=false&activity.filter=all&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=12&notable.from=organization&notable.repositories=false&notable.indepth=false&notable.types=commit&tweets.user=ckgrafico&tweets.attachments=true&tweets.limit=2&config.timezone=Europe%2FBucharest)
