@@ -17,8 +17,8 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 
 ## Currently working on:
 
-- <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://github.com/CKGrafico/papanasi)
-- <img src="https://unavatar.io/talentoparatuevento.tech" width="14"/> [Talent for your Event](https://github.com/CKGrafico/talentforyourevent)
+- <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
+- <img src="https://unavatar.io/talentoparatuevento.tech" width="14"/> [Talent for your Event](https://talentoparatuevento.tech)
 
 ## Some projects I'm proud of:
 
