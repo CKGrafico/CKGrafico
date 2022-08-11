@@ -11,7 +11,9 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 - 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
 - 🐦 Curious [Twitter](https://twitter.com/ckgrafico) writer
 - ✒ Casual [Medium](https://ckgrafico.medium.com) editor
-- 🖥 Check [my Website](https://ckgrafico.com) ^^
+- 🖥 Check [my blog](https://blog.ckgrafico.com) ^^
+- I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
+- If you're interested you can [download my cv](https://quique.dev/cv).
 
 
 ## Currently working on:
