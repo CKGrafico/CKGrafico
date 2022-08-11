@@ -6,13 +6,13 @@
 I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm currently working as a Director of Engineering at [Plain Concepts](https://www.plainconcepts.com/) Romania 🇷🇴🐷.
 
 - 🤹🏻‍♂️ Frontend Lover
-- 🧭 Lazy [Github](https://github.com/CKGrafico) contributor
-- 🟠 Happy [HelpDev](https://Helpdev.org) founder 
-- 🌍 Web [GoogleDevExpert](https://developers.google.com/community/experts)
-- 🐦 Curious [Twitter](https://twitter.com/ckgrafico) writer
-- ✒ Casual [Medium](https://ckgrafico.medium.com) editor
-- 🖥 Check [my blog](https://blog.ckgrafico.com) ^^
-- I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/github-icon.svg" width="14"/> Lazy [Github](https://github.com/CKGrafico) contributor
+- <img src="https://unavatar.io/helpdev.org" width="14"/> Happy [HelpDev](https://Helpdev.org) founder 
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/google-icon.svg" width="14"/> Web [GoogleDevExpert](https://developers.google.com/community/experts)
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/twitter.svg" width="14"/> Curious [Twitter](https://twitter.com/ckgrafico) writer
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/medium-icon.svg" width="14"/> Casual [Medium](https://ckgrafico.medium.com) editor
+- <img src="https://unavatar.io/ckgrafico" width="14"/> Check [my blog](https://blog.ckgrafico.com) ^^
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
 - If you're interested you can [download my cv](https://quique.dev/cv).
 
 
