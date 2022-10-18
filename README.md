@@ -18,12 +18,12 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 ## Currently working on:
 
 - <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
-- <img src="https://unavatar.io/talentoparatuevento.tech" width="14"/> [Talent for your Event](https://talentoparatuevento.tech)
+- <img src="https://unavatar.io/helpdev.org" width="14"/> [Storyblok HelpDev Components](https://github.com/HelpDev/Storyblok-Components)
 
 ## Some projects I'm proud of:
 
 - 🔭 [Remote Teams](https://github.com/CKGrafico/remote-teams)
-- 🟠 [Storyblok HelpDev Components](https://github.com/HelpDev/Storyblok-Components)
+- <img src="https://unavatar.io/talentoparatuevento.tech" width="14"/> [Talent for your Event](https://talentoparatuevento.tech)
 - 🍱 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
 - 🛠 [Inversify Props](https://github.com/CKGrafico/inversify-props)
 - 🧩 [Cordova Multiplatform](https://github.com/CKGrafico/Cordova-Multiplatform-Template)
