@@ -10,7 +10,7 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm 
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/google-icon.svg" width="14"/> Web [GoogleDevExpert](https://developers.google.com/community/experts)
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/twitter.svg" width="14"/> Curious [Twitter](https://twitter.com/ckgrafico) writer
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/medium-icon.svg" width="14"/> Casual [Medium](https://ckgrafico.medium.com) editor
-- <img src="https://unavatar.io/ckgrafico" width="14"/> Check [my talks](https://quique.dev/talks) as public speaker
+- <img src="https://unavatar.io/ckgrafico" width="14"/> Check [my talks](https://quique.dev/talks) as speaker
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/productboard-icon.svg" width="14"/> You can [download](https://quique.dev/cv) my cv
 - 💗 Help me to create open source with [your sponsorship](https://github.com/sponsors/CKGrafico).
