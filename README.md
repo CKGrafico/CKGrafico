@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/JHN0m9r.png" width="1280" title="Hi I'm Quique">
 </p>
 
-I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and I'm currently working as a Director of Engineering at [Plain Concepts](https://www.plainconcepts.com/) Romania 🇷🇴🐷.
+I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and [now who knows](https://www.linkedin.com/in/quiquefdezguerra/).
 
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/github-icon.svg" width="14"/> Lazy [Github](https://github.com/CKGrafico) contributor
