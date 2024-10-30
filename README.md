@@ -11,8 +11,7 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and [now
 - <img src="https://substackcdn.com/image/fetch/w_40,h_40,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fba81cfff-7bc5-4aef-866e-864d0942c42d_1000x1000.png" width="14"/> Casual [Substack](https://ckgrafico.substack.com) and [Dev.to](https://dev.to/ckgrafico) editor
 - <img src="https://unavatar.io/ckgrafico" width="14"/> Check [my talks](https://quique.dev/talks) as speaker
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
-- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/productboard-icon.svg" width="14"/> You can [download](https://quique.dev/cv) my cv
-- 💗 Help me to create open source with [your sponsorship](https://github.com/sponsors/CKGrafico).
+
 
 ## Currently working on:
 
