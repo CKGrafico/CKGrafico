@@ -6,19 +6,15 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and [now
 
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/github-icon.svg" width="14"/> Lazy [Github](https://github.com/CKGrafico) contributor
-- <img src="https://unavatar.io/helpdev.org" width="14"/> Happy [HelpDev](https://Helpdev.org) founder 
-- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/twitter.svg" width="14"/> Curious [Twitter](https://twitter.com/ckgrafico) writer
-- <img src="https://substackcdn.com/image/fetch/w_40,h_40,c_fill,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fba81cfff-7bc5-4aef-866e-864d0942c42d_1000x1000.png" width="14"/> Casual [Substack](https://ckgrafico.substack.com) and [Dev.to](https://dev.to/ckgrafico) editor
-- <img src="https://unavatar.io/ckgrafico" width="14"/> Check [my talks](https://quique.dev/talks) as speaker
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
 
 
 ## Currently working on:
 
 - <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
-- <img src="https://unavatar.io/helpdev.org" width="14"/> [Storyblok HelpDev Template](https://github.com/HelpDev/NGO-HelpDev-Storyblok)
+- 🧰 [Opencode Onboard CLI](https://github.com/CKGrafico/opencode-onboard)
 
-## Some projects I'm proud of:
+## Some old projects I'm proud of:
 
 - 🔭 [Remote Teams](https://github.com/CKGrafico/remote-teams)
 - <img src="https://unavatar.io/talentoparatuevento.tech" width="14"/> [Talent for your Event](https://talentoparatuevento.tech)
