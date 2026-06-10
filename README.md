@@ -13,6 +13,7 @@ I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and [now
 
 - <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
 - 🧰 [Opencode Onboard CLI](https://github.com/CKGrafico/opencode-onboard)
+- 🧵 [Loop Task CLI](https://github.com/CKGrafico/loop-cli)
 - 🏪 [Opencode Market CLI](https://github.com/CKGrafico/opencode-market)
   
 ## Some old projects I'm proud of:
