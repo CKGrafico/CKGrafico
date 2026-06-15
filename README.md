@@ -1,20 +1,16 @@
 <p align="center">
   <img src="https://i.imgur.com/JHN0m9r.png" width="1280" title="Hi I'm Quique">
 </p>
-
-I'm from Spain 🇪🇸 and I started my career as a Frontend Developer and [now who knows](https://www.linkedin.com/in/quiquefdezguerra/).
-
-- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
-- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/github-icon.svg" width="14"/> Lazy [Github](https://github.com/CKGrafico) contributor
-- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
-
-
 ## Currently working on:
 
 - <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
 - 🧰 [Opencode Onboard CLI](https://github.com/CKGrafico/opencode-onboard)
 - 🧵 [Loop Task CLI](https://github.com/CKGrafico/loop-cli)
 - 🏪 [Opencode Market CLI](https://github.com/CKGrafico/opencode-market)
+
+## More about me
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
   
 ## Some old projects I'm proud of:
 
