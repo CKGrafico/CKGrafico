@@ -3,7 +3,7 @@
 </p>
 
 ## Currently working on:
-- <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
+
 - 🧰 [Opencode Onboard CLI](https://github.com/CKGrafico/opencode-onboard)
 - 🧵 [Loop Task CLI](https://github.com/CKGrafico/loop-cli)
 - 🏪 [Opencode Market CLI](https://github.com/CKGrafico/opencode-market)
@@ -14,6 +14,7 @@
   
 ## Some old projects I'm proud of:
 
+- <img src="https://unavatar.io/papanasi.js.org" width="14"/> [Papanasi Universal UI Library](https://papanasi.js.org)
 - 🔭 [Remote Teams](https://github.com/CKGrafico/remote-teams)
 - <img src="https://unavatar.io/talentoparatuevento.tech" width="14"/> [Talent for your Event](https://talentoparatuevento.tech)
 - 🍱 [Frontend Boilerplates](https://github.com/CKGrafico/Frontend-Boilerplates)
