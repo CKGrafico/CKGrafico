@@ -7,6 +7,7 @@
 - 🧰 [Opencode Onboard CLI](https://github.com/CKGrafico/opencode-onboard)
 - 🧵 [Loop Task CLI](https://github.com/CKGrafico/loop-cli)
 - 🏪 [Opencode Market CLI](https://github.com/CKGrafico/opencode-market)
+- 🪝 [Inversify Hooks](https://github.com/CKGrafico/inversify-hooks)
 
 ## More about me
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
