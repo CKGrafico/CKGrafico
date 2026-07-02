@@ -112,6 +112,32 @@ h2 {
 
 .btn.primary:hover { box-shadow: 0 8px 28px rgba(62, 207, 142, 0.4); }
 
+.btn.sponsor {
+  background: linear-gradient(135deg, #ff5b8a, #db61a2);
+  border-color: transparent;
+  color: #fff;
+}
+
+.btn.sponsor:hover { box-shadow: 0 8px 28px rgba(219, 97, 162, 0.45); }
+
+.btn.sponsor .heart {
+  display: inline-block;
+  color: #fff;
+  margin-right: 4px;
+  animation: heartbeat 1.4s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  15% { transform: scale(1.28); }
+  30% { transform: scale(1); }
+  45% { transform: scale(1.18); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn.sponsor .heart { animation: none; }
+}
+
 /* ---------------- Sections ---------------- */
 .section { padding: 80px 0; }
 .section.alt { background: var(--bg-alt); }
