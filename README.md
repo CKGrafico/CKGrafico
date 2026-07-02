@@ -12,4 +12,4 @@
 
 ## More about me
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
-- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra
+- <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/linkedin-icon.svg" width="14"/> I've also a [linkedin profile](https://www.linkedin.com/in/quiquefdezguerra)
