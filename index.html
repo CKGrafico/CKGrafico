@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quique Fdez Guerra — Frontend Lover</title>
+  <meta name="description" content="Quique Fdez Guerra (CKGrafico) — Frontend Lover. Building CLIs and open-source developer tools: Opencode Onboard, Loop Task, Inversify Props & Hooks, Opencode Market." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233ecf8e'/%3E%3Ctext x='32' y='46' font-size='38' text-anchor='middle'%3E%F0%9F%91%8B%3C/text%3E%3C/svg%3E" />
+  <meta property="og:title" content="Quique Fdez Guerra — Frontend Lover" />
+  <meta property="og:description" content="Building CLIs and open-source developer tools." />
+  <meta property="og:image" content="https://i.imgur.com/JHN0m9r.png" />
+  <meta property="og:url" content="https://ckgrafico.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ======================== HERO ======================== -->
+  <header class="hero">
+    <canvas id="confetti" aria-hidden="true"></canvas>
+    <div class="hero-inner">
+      <img class="hero-banner" src="https://i.imgur.com/JHN0m9r.png" alt="Hey, I am Quique 👋" width="1280" height="320" />
+      <p class="hero-tag">Frontend&nbsp;Lover · building open-source developer tools &amp; CLIs</p>
+      <div class="hero-cta">
+        <a class="btn primary" href="#projects">See what I'm building</a>
+        <a class="btn" href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================== ACTIVE PROJECTS ======================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="reveal">What I'm building <span class="wave">🛠️</span></h2>
+        <p class="section-sub reveal">Open-source tools I actively work on. Most started as an itch I couldn't stop scratching.</p>
+
+        <div class="projects-grid">
+          <a class="project reveal" href="https://opencode.ckgrafico.com" target="_blank" rel="noopener">
+            <span class="project-emoji" aria-hidden="true">🧰</span>
+            <h3>Opencode Onboard CLI</h3>
+            <p>Prepare any codebase for AI. One wizard wires OpenCode, OpenSpec, codegraph &amp; basic-memory into a multi-agent workflow.</p>
+            <div class="project-links">
+              <span class="tag live">Live site ↗</span>
+              <span class="tag" data-href="https://www.npmjs.com/package/opencode-onboard">npm</span>
+              <span class="tag" data-href="https://github.com/CKGrafico/opencode-onboard">GitHub</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://github.com/CKGrafico/loop-cli" target="_blank" rel="noopener">
+            <span class="project-emoji" aria-hidden="true">🧵</span>
+            <h3>Loop Task CLI</h3>
+            <p>Loop engineering for your terminal. Run any command on a cadence — a background daemon and interactive board, no cron files.</p>
+            <div class="project-links">
+              <span class="tag" data-href="https://www.npmjs.com/package/loop-task">npm</span>
+              <span class="tag gh">GitHub ↗</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://inversify-props.ckgrafico.com" target="_blank" rel="noopener">
+            <span class="project-emoji" aria-hidden="true">🪼</span>
+            <h3>Inversify Props</h3>
+            <p>Dependency injection without the boilerplate. Register a class once, inject it as a property. Vue, Lit, vanilla TS.</p>
+            <div class="project-links">
+              <span class="tag live">Live site ↗</span>
+              <span class="tag" data-href="https://www.npmjs.com/package/inversify-props">npm</span>
+              <span class="tag" data-href="https://github.com/CKGrafico/inversify-props">GitHub</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://inversify-hooks.ckgrafico.com" target="_blank" rel="noopener">
+            <span class="project-emoji" aria-hidden="true">🪝</span>
+            <h3>Inversify Hooks</h3>
+            <p>Dependency injection for React in a single <code>useInject()</code> hook. No providers, no context boilerplate.</p>
+            <div class="project-links">
+              <span class="tag live">Live site ↗</span>
+              <span class="tag" data-href="https://www.npmjs.com/package/inversify-hooks">npm</span>
+              <span class="tag" data-href="https://github.com/CKGrafico/inversify-hooks">GitHub</span>
+            </div>
+          </a>
+
+          <a class="project reveal" href="https://github.com/CKGrafico/opencode-market" target="_blank" rel="noopener">
+            <span class="project-emoji" aria-hidden="true">🏪</span>
+            <h3>Opencode Market CLI</h3>
+            <p>Discover, install, and manage OpenCode agent plugins from GitHub marketplaces — globally or per project.</p>
+            <div class="project-links">
+              <span class="tag" data-href="https://www.npmjs.com/package/opencode-market">npm</span>
+              <span class="tag gh">GitHub ↗</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== PAST PROJECTS ======================== -->
+    <section class="section alt" id="past">
+      <div class="container">
+        <h2 class="reveal">Also made <span class="wave">🍱</span></h2>
+        <p class="section-sub reveal">A few things from before — still proud of these.</p>
+        <div class="past-grid reveal">
+          <a class="past" href="https://papanasi.js.org" target="_blank" rel="noopener">
+            <span aria-hidden="true">🥟</span>
+            <div><strong>Papanasi</strong><small>Universal UI library — one component, every framework</small></div>
+          </a>
+          <a class="past" href="https://talentoparatuevento.tech" target="_blank" rel="noopener">
+            <span aria-hidden="true">🎤</span>
+            <div><strong>Talent for your Event</strong><small>Book talent for your event</small></div>
+          </a>
+          <a class="past" href="https://github.com/CKGrafico/remote-teams" target="_blank" rel="noopener">
+            <span aria-hidden="true">🌍</span>
+            <div><strong>Remote Teams</strong><small>Curated resources for working remotely</small></div>
+          </a>
+          <a class="past" href="https://github.com/CKGrafico/Frontend-Boilerplates" target="_blank" rel="noopener">
+            <span aria-hidden="true">⚡</span>
+            <div><strong>Frontend Boilerplates</strong><small>Battle-tested project starters</small></div>
+          </a>
+          <a class="past" href="https://github.com/CKGrafico/Cordova-Multiplatform-Template" target="_blank" rel="noopener">
+            <span aria-hidden="true">📱</span>
+            <div><strong>Cordova Multiplatform</strong><small>One codebase, multiple platforms</small></div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CONNECT ======================== -->
+    <section class="section" id="connect">
+      <div class="container narrow center reveal">
+        <h2>Let's connect <span class="wave">👋</span></h2>
+        <p class="section-sub center">Always happy to chat about frontend, DX, and open source.</p>
+        <div class="hero-cta center">
+          <a class="btn primary" href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>Made with <span aria-hidden="true">💚</span> by Quique Fdez Guerra</span>
+      <span class="footer-links">
+        <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+      </span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

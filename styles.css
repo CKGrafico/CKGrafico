@@ -1,0 +1,259 @@
+/* ============================================================
+   ckgrafico.com — personal site, light mode, mint-green
+   ============================================================ */
+
+:root {
+  --mint: #3ecf8e;
+  --mint-dark: #2bb673;
+  --mint-soft: #d7f5e7;
+  --bg: #fbfdfc;
+  --bg-alt: #f2f8f5;
+  --panel: #ffffff;
+  --border: #e3ebe6;
+  --text: #1c2b24;
+  --text-dim: #5c6b63;
+  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --hand: "Caveat", "Segoe Script", cursive;
+  --shadow: 0 10px 40px rgba(43, 182, 115, 0.12);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+.container.narrow { max-width: 680px; }
+.center { text-align: center; }
+
+a { color: var(--mint-dark); text-decoration: none; }
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  letter-spacing: -0.02em;
+  margin-bottom: 0.4em;
+}
+
+.wave { display: inline-block; }
+
+/* ---------------- Hero ---------------- */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%, var(--mint-soft), transparent 70%),
+    var(--bg);
+  padding: 56px 24px 72px;
+  text-align: center;
+}
+
+#confetti {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.hero-inner { position: relative; z-index: 1; max-width: 900px; margin: 0 auto; }
+
+.hero-banner {
+  width: 100%;
+  height: auto;
+  max-width: 820px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.hero-tag {
+  font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+  color: var(--text-dim);
+  margin: 28px auto 0;
+  max-width: 620px;
+}
+
+.hero-cta {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 28px;
+  flex-wrap: wrap;
+}
+
+.hero-cta.center { margin-top: 24px; }
+
+/* ---------------- Buttons ---------------- */
+.btn {
+  display: inline-block;
+  padding: 11px 22px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+}
+
+.btn:hover { transform: translateY(-2px); box-shadow: var(--shadow); border-color: var(--mint); }
+
+.btn.primary {
+  background: linear-gradient(135deg, var(--mint), var(--mint-dark));
+  border-color: transparent;
+  color: #fff;
+}
+
+.btn.primary:hover { box-shadow: 0 8px 28px rgba(62, 207, 142, 0.4); }
+
+/* ---------------- Sections ---------------- */
+.section { padding: 80px 0; }
+.section.alt { background: var(--bg-alt); }
+
+.section-sub {
+  color: var(--text-dim);
+  max-width: 640px;
+  margin-bottom: 2.5rem;
+  font-size: 1.05rem;
+}
+.section-sub.center { margin-left: auto; margin-right: auto; }
+
+/* ---------------- Active projects ---------------- */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  background: var(--panel);
+  border: 1.5px solid var(--border);
+  border-radius: 18px;
+  padding: 28px;
+  color: var(--text);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  border-color: var(--mint);
+}
+
+.project-emoji {
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+.project h3 { font-size: 1.2rem; margin-bottom: 8px; letter-spacing: -0.01em; }
+
+.project p { color: var(--text-dim); font-size: 0.95rem; flex-grow: 1; }
+
+.project code {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.85em;
+  background: var(--bg-alt);
+  padding: 0.1em 0.35em;
+  border-radius: 5px;
+}
+
+.project-links {
+  display: flex;
+  gap: 8px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--bg-alt);
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.tag[data-href]:hover { cursor: pointer; }
+
+.project:hover .tag.live,
+.project:hover .tag.gh {
+  background: var(--mint-soft);
+  color: var(--mint-dark);
+  border-color: var(--mint);
+}
+
+/* ---------------- Past projects ---------------- */
+.past-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.past {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--panel);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+  padding: 16px 18px;
+  color: var(--text);
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.past:hover { transform: translateY(-2px); border-color: var(--mint); }
+
+.past span { font-size: 1.6rem; line-height: 1; flex-shrink: 0; }
+.past strong { display: block; font-size: 1rem; }
+.past small { color: var(--text-dim); font-size: 0.85rem; }
+
+/* ---------------- Footer ---------------- */
+.footer {
+  border-top: 1.5px solid var(--border);
+  padding: 28px 0;
+  background: var(--bg-alt);
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.footer-links { display: flex; gap: 18px; }
+
+/* ---------------- Scroll reveal ---------------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+  #confetti { display: none; }
+}
+
+/* ---------------- Responsive ---------------- */
+@media (max-width: 560px) {
+  .hero { padding: 36px 18px 52px; }
+  .section { padding: 56px 0; }
+  .footer-inner { flex-direction: column; text-align: center; }
+}
