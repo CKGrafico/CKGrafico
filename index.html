@@ -3,151 +3,177 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quique Fdez Guerra — Frontend Lover</title>
-  <meta name="description" content="Quique Fdez Guerra (CKGrafico) — Frontend Lover. Building CLIs and open-source developer tools: Opencode Onboard, Loop Task, Inversify Props & Hooks, Opencode Market." />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233ecf8e'/%3E%3Ctext x='32' y='46' font-size='38' text-anchor='middle'%3E%F0%9F%91%8B%3C/text%3E%3C/svg%3E" />
-  <meta property="og:title" content="Quique Fdez Guerra — Frontend Lover" />
-  <meta property="og:description" content="Building CLIs and open-source developer tools." />
-  <meta property="og:image" content="https://i.imgur.com/JHN0m9r.png" />
+  <title>Quique Fdez Guerra</title>
+  <meta name="description" content="Quique Fdez Guerra — Director of Engineering and Operations at Plain Concepts. Organizational strategy, engineering leadership, AI transformation. Startup collaborator and open-source builder." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232c3e50'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='%23f5f2ec'%3EQ%3C/text%3E%3C/svg%3E" />
+  <meta property="og:title" content="Quique Fdez Guerra" />
+  <meta property="og:description" content="Director of Engineering and Operations · Startup collaborator · Open-source builder" />
   <meta property="og:url" content="https://ckgrafico.com" />
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ======================== HERO ======================== -->
-  <header class="hero">
-    <canvas id="confetti" aria-hidden="true"></canvas>
-    <div class="hero-inner">
-      <img class="hero-banner" src="https://i.imgur.com/JHN0m9r.png" alt="Hey, I am Quique 👋" width="1280" height="320" />
-      <p class="hero-tag">Frontend&nbsp;Lover · building open-source developer tools &amp; CLIs</p>
+  <!-- ======================== HEADER ======================== -->
+  <header class="top">
+    <div class="container top-inner">
+      <span class="top-name">Quique Fdez Guerra</span>
+      <nav class="top-links">
+        <a href="#professional">Professional</a>
+        <a href="#startups">Startups</a>
+        <a href="#open-source">Open source</a>
+      </nav>
     </div>
   </header>
 
   <main>
-    <!-- ======================== ACTIVE PROJECTS ======================== -->
-    <section class="section" id="projects">
-      <div class="container">
-        <h2 class="reveal">What I'm building <span class="wave">🛠️</span></h2>
-        <p class="section-sub reveal">Open-source tools I actively work on. Most started as an itch I couldn't stop scratching.</p>
-
-        <div class="projects-grid">
-          <a class="project reveal" href="https://opencode.ckgrafico.com" target="_blank" rel="noopener">
-            <span class="project-emoji" aria-hidden="true">🧰</span>
-            <h3>Opencode Onboard CLI</h3>
-            <p>Prepare any codebase for AI. One wizard wires OpenCode, OpenSpec, codegraph &amp; basic-memory into a multi-agent workflow.</p>
-            <div class="project-links">
-              <span class="tag live">Live site ↗</span>
-              <span class="tag" data-href="https://www.npmjs.com/package/opencode-onboard">npm</span>
-              <span class="tag" data-href="https://github.com/CKGrafico/opencode-onboard">GitHub</span>
-            </div>
-          </a>
-
-          <a class="project reveal" href="https://loop.ckgrafico.com" target="_blank" rel="noopener">
-            <span class="project-emoji" aria-hidden="true">🧵</span>
-            <h3>Loop Task CLI</h3>
-            <p>Loop engineering for your terminal. Run any command on a cadence — a background daemon and interactive board, no cron files.</p>
-            <div class="project-links">
-              <span class="tag live">Live site ↗</span>
-              <span class="tag" data-href="https://www.npmjs.com/package/loop-task">npm</span>
-              <span class="tag" data-href="https://github.com/CKGrafico/loop-cli">GitHub</span>
-            </div>
-          </a>
-
-          <a class="project reveal" href="https://inversify-props.ckgrafico.com" target="_blank" rel="noopener">
-            <span class="project-emoji" aria-hidden="true">🪼</span>
-            <h3>Inversify Props</h3>
-            <p>Dependency injection without the boilerplate. Register a class once, inject it as a property. Vue, Lit, vanilla TS.</p>
-            <div class="project-links">
-              <span class="tag live">Live site ↗</span>
-              <span class="tag" data-href="https://www.npmjs.com/package/inversify-props">npm</span>
-              <span class="tag" data-href="https://github.com/CKGrafico/inversify-props">GitHub</span>
-            </div>
-          </a>
-
-          <a class="project reveal" href="https://inversify-hooks.ckgrafico.com" target="_blank" rel="noopener">
-            <span class="project-emoji" aria-hidden="true">🪝</span>
-            <h3>Inversify Hooks</h3>
-            <p>Dependency injection for React in a single <code>useInject()</code> hook. No providers, no context boilerplate.</p>
-            <div class="project-links">
-              <span class="tag live">Live site ↗</span>
-              <span class="tag" data-href="https://www.npmjs.com/package/inversify-hooks">npm</span>
-              <span class="tag" data-href="https://github.com/CKGrafico/inversify-hooks">GitHub</span>
-            </div>
-          </a>
-
-          <a class="project reveal" href="https://github.com/CKGrafico/opencode-market" target="_blank" rel="noopener">
-            <span class="project-emoji" aria-hidden="true">🏪</span>
-            <h3>Opencode Market CLI</h3>
-            <p>Discover, install, and manage OpenCode agent plugins from GitHub marketplaces — globally or per project.</p>
-            <div class="project-links">
-              <span class="tag" data-href="https://www.npmjs.com/package/opencode-market">npm</span>
-              <span class="tag gh">GitHub ↗</span>
-            </div>
-          </a>
+    <!-- ======================== INTRO ======================== -->
+    <section class="intro">
+      <div class="container intro-grid">
+        <div class="intro-text">
+          <h1>Engineering leader,<br />builder at heart.</h1>
+          <p>
+            I'm Quique — Director of Engineering and Operations at
+            <a href="https://www.plainconcepts.com" target="_blank" rel="noopener">Plain Concepts</a>,
+            where I help a 500+ engineer organization scale through organizational strategy,
+            engineering leadership, and AI transformation.
+          </p>
+          <p>
+            I teach Change Management in the University Master's in Project Management at
+            <a href="https://www.salleurl.edu" target="_blank" rel="noopener">La Salle BCN</a>,
+            collaborate with early-stage startups, and build open-source developer tools.
+            Based in Barcelona.
+          </p>
+          <div class="intro-links">
+            <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
+          </div>
+        </div>
+        <div class="intro-photo">
+          <img src="assets/quique.jpg" alt="Portrait of Quique Fdez Guerra" width="360" height="360" onerror="this.parentElement.remove()" />
         </div>
       </div>
     </section>
 
-    <!-- ======================== PAST PROJECTS ======================== -->
-    <section class="section alt" id="past">
+    <!-- ======================== PROFESSIONAL ======================== -->
+    <section class="section" id="professional">
       <div class="container">
-        <h2 class="reveal">Also made <span class="wave">🍱</span></h2>
-        <p class="section-sub reveal">A few things from before — still proud of these.</p>
-        <div class="past-grid reveal">
-          <a class="past" href="https://papanasi.js.org" target="_blank" rel="noopener">
-            <span aria-hidden="true">🥟</span>
-            <div><strong>Papanasi</strong><small>Universal UI library — one component, every framework</small></div>
-          </a>
-          <a class="past" href="https://talentoparatuevento.tech" target="_blank" rel="noopener">
-            <span aria-hidden="true">🎤</span>
-            <div><strong>Talent for your Event</strong><small>Book talent for your event</small></div>
-          </a>
-          <a class="past" href="https://github.com/CKGrafico/remote-teams" target="_blank" rel="noopener">
-            <span aria-hidden="true">🌍</span>
-            <div><strong>Remote Teams</strong><small>Curated resources for working remotely</small></div>
-          </a>
-          <a class="past" href="https://github.com/CKGrafico/Frontend-Boilerplates" target="_blank" rel="noopener">
-            <span aria-hidden="true">⚡</span>
-            <div><strong>Frontend Boilerplates</strong><small>Battle-tested project starters</small></div>
-          </a>
-          <a class="past" href="https://github.com/CKGrafico/Cordova-Multiplatform-Template" target="_blank" rel="noopener">
-            <span aria-hidden="true">📱</span>
-            <div><strong>Cordova Multiplatform</strong><small>One codebase, multiple platforms</small></div>
-          </a>
+        <div class="section-head">
+          <span class="section-num">01</span>
+          <h2>Professional</h2>
+        </div>
+        <div class="section-body">
+          <div class="entry">
+            <h3><a href="https://www.plainconcepts.com" target="_blank" rel="noopener">Plain Concepts</a></h3>
+            <p class="entry-role">Director of Engineering and Operations · 11+ years</p>
+            <p>
+              Operating model, workforce planning, and organizational design for 500+ engineers
+              across multiple business units. Engineering Chapters, the Principal Engineers function,
+              and company-wide AI adoption programs.
+            </p>
+          </div>
+          <div class="entry">
+            <h3><a href="https://www.salleurl.edu" target="_blank" rel="noopener">La Salle BCN</a></h3>
+            <p class="entry-role">Associate Professor · Change Management, University Master's in Project Management</p>
+            <p>Preparing future leaders to manage resistance, align people, and land organizational change.</p>
+          </div>
+          <div class="entry">
+            <h3>Writing &amp; speaking</h3>
+            <p class="entry-role">Engineering culture, AI adoption, loop engineering</p>
+            <p>
+              Latest: <a href="https://www.linkedin.com/in/quiquefdezguerra/recent-activity/articles/" target="_blank" rel="noopener"><em>And then we stopped working alone: the rise of Loop Engineering</em></a> —
+              more on <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ======================== CONNECT ======================== -->
-    <section class="section" id="connect">
-      <div class="container narrow center reveal">
-        <h2>Let's connect <span class="wave">👋</span></h2>
-        <p class="section-sub center">Always happy to chat about frontend, DX, and open source. If my tools save you time, a sponsorship keeps them going. 💚</p>
-        <div class="hero-cta center">
-          <a class="btn sponsor" href="https://github.com/sponsors/CKGrafico" target="_blank" rel="noopener"><span class="heart" aria-hidden="true">♥</span> Sponsor me</a>
-          <a class="btn" href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
-          <a class="btn" href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
-          <a class="btn" href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+    <!-- ======================== STARTUPS ======================== -->
+    <section class="section" id="startups">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-num">02</span>
+          <h2>Startups</h2>
+        </div>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a href="https://partypops.app" target="_blank" rel="noopener">partypops.app</a>
+              <span>Collaborator</span>
+            </li>
+            <li>
+              <a href="https://helpdev.org" target="_blank" rel="noopener">helpdev.org</a>
+              <span>Founder — technology for social good, 2013–2024</span>
+            </li>
+            <li>
+              <a href="https://supplaay.com" target="_blank" rel="noopener">supplaay.com</a>
+              <span>Technical contributor</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== OPEN SOURCE ======================== -->
+    <section class="section" id="open-source">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-num">03</span>
+          <h2>Open source</h2>
+        </div>
+        <div class="section-body">
+          <ul class="link-list">
+            <li>
+              <a href="https://opencode.ckgrafico.com" target="_blank" rel="noopener">opencode-onboard</a>
+              <span>Prepare any codebase for AI agents</span>
+            </li>
+            <li>
+              <a href="https://loop.ckgrafico.com" target="_blank" rel="noopener">loop-task</a>
+              <span>Run anything on a cadence — loop engineering for your terminal</span>
+            </li>
+            <li>
+              <a href="https://inversify-props.ckgrafico.com" target="_blank" rel="noopener">inversify-props</a>
+              <span>Dependency injection without the boilerplate</span>
+            </li>
+            <li>
+              <a href="https://inversify-hooks.ckgrafico.com" target="_blank" rel="noopener">inversify-hooks</a>
+              <span>Dependency injection for React in a single hook</span>
+            </li>
+            <li>
+              <a href="https://github.com/CKGrafico/opencode-market" target="_blank" rel="noopener">opencode-market</a>
+              <span>Discover and install OpenCode agent plugins</span>
+            </li>
+          </ul>
+          <p class="section-note">
+            Earlier work — <a href="https://papanasi.js.org" target="_blank" rel="noopener">Papanasi</a>,
+            <a href="https://github.com/CKGrafico/Frontend-Boilerplates" target="_blank" rel="noopener">Frontend Boilerplates</a>,
+            <a href="https://github.com/CKGrafico/remote-teams" target="_blank" rel="noopener">Remote Teams</a> —
+            lives on <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>.
+            If these tools save you time, you can <a href="https://github.com/sponsors/CKGrafico" target="_blank" rel="noopener">sponsor the work</a>.
+          </p>
         </div>
       </div>
     </section>
   </main>
 
+  <!-- ======================== FOOTER ======================== -->
   <footer class="footer">
     <div class="container footer-inner">
-      <span>Made with <span aria-hidden="true">💚</span> by Quique Fdez Guerra</span>
+      <span>© Quique Fdez Guerra</span>
       <span class="footer-links">
-        <a href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
-        <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
       </span>
     </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
