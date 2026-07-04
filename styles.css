@@ -226,36 +226,6 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
   text-align: right;
 }
 
-/* ---------------- Ticker ---------------- */
-.ticker {
-  border-bottom: 1px solid var(--line-soft);
-  overflow: hidden;
-  padding: 16px 0;
-}
-
-.ticker-track {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  width: max-content;
-  animation: ticker 44s linear infinite;
-}
-
-.ticker:hover .ticker-track { animation-play-state: paused; }
-
-.ticker-track span {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: var(--muted);
-  white-space: nowrap;
-}
-
-.ticker-track i { color: var(--line); font-style: normal; }
-
-@keyframes ticker { to { transform: translateX(-50%); } }
-
 /* ---------------- Stats ---------------- */
 .stats { border-bottom: 1px solid var(--line-soft); }
 
@@ -523,7 +493,7 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
-  .rotator-inner, .ticker-track { animation: none; }
+  .rotator-inner { animation: none; }
 }
 
 /* ---------------- Responsive ---------------- */
