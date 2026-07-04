@@ -28,8 +28,13 @@ function formatStat(el, value) {
   return Math.round(value).toString()
 }
 
+function getTarget(el) {
+  if (el.dataset.since) return new Date().getFullYear() - parseInt(el.dataset.since, 10)
+  return parseInt(el.dataset.count, 10)
+}
+
 function animateCount(el) {
-  const target = parseInt(el.dataset.count, 10)
+  const target = getTarget(el)
   const duration = 1400
   const start = performance.now()
 
@@ -57,7 +62,7 @@ if ('IntersectionObserver' in window && !reduceMotion) {
   )
   document.querySelectorAll('.stat-num').forEach((el) => counterObs.observe(el))
 } else {
-  document.querySelectorAll('.stat-num').forEach((el) => (el.textContent = formatStat(el, parseInt(el.dataset.count, 10))))
+  document.querySelectorAll('.stat-num').forEach((el) => (el.textContent = formatStat(el, getTarget(el))))
 }
 
 // ---------- Install-command copy (inside links: don't navigate) ----------
