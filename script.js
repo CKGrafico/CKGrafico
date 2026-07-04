@@ -23,6 +23,11 @@ if (!reduceMotion && 'IntersectionObserver' in window) {
 }
 
 // ---------- Animated counters ----------
+function formatStat(el, value) {
+  if (el.dataset.format === 'k') return (value / 1000).toFixed(1) + 'K'
+  return Math.round(value).toString()
+}
+
 function animateCount(el) {
   const target = parseInt(el.dataset.count, 10)
   const duration = 1400
@@ -31,7 +36,7 @@ function animateCount(el) {
   function tick(now) {
     const progress = Math.min((now - start) / duration, 1)
     const eased = 1 - Math.pow(1 - progress, 3)
-    el.textContent = Math.round(target * eased)
+    el.textContent = formatStat(el, target * eased)
     if (progress < 1) requestAnimationFrame(tick)
   }
 
@@ -52,7 +57,7 @@ if ('IntersectionObserver' in window && !reduceMotion) {
   )
   document.querySelectorAll('.stat-num').forEach((el) => counterObs.observe(el))
 } else {
-  document.querySelectorAll('.stat-num').forEach((el) => (el.textContent = el.dataset.count))
+  document.querySelectorAll('.stat-num').forEach((el) => (el.textContent = formatStat(el, parseInt(el.dataset.count, 10))))
 }
 
 // ---------- Install-command copy (inside links: don't navigate) ----------

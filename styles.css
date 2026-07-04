@@ -182,6 +182,7 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 .hero-desc strong { color: var(--ivory); font-weight: 600; }
 
 .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero-cta.center { justify-content: center; }
 
 /* ---------------- Buttons ---------------- */
 .btn {
@@ -369,6 +370,30 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 
 .aside { margin-top: 40px; color: var(--muted); font-size: 0.95rem; }
 
+/* ---------------- Sponsor CTA ---------------- */
+.sponsor-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 34px 36px;
+  border: 1px solid var(--line);
+}
+
+.sponsor-cta h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+}
+
+.sponsor-cta p { color: var(--ivory-sec); font-size: 0.95rem; }
+
+.sponsor-cta .btn { flex-shrink: 0; }
+
 /* ---------------- Strategy intro ---------------- */
 .strategy-intro { margin-bottom: 60px; }
 
@@ -459,24 +484,9 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
   border-top: 1px solid var(--line-soft);
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 72px;
-  align-items: center;
-}
-
 .contact .micro { margin-bottom: 18px; }
 
 .contact-title { font-size: clamp(3rem, 9vw, 6.5rem); margin-bottom: 48px; }
-
-.contact-portrait img {
-  width: 100%;
-  height: auto;
-  display: block;
-  filter: grayscale(0.35) contrast(1.04);
-  border: 1px solid var(--line);
-}
 
 /* ---------------- Footer ---------------- */
 .footer { border-top: 1px solid var(--line-soft); background: var(--bg-soft); }
@@ -520,8 +530,6 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: 48px; }
   .hero-portrait { max-width: 300px; }
-  .contact-grid { grid-template-columns: 1fr; gap: 48px; }
-  .contact-portrait { max-width: 280px; }
   .oss-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .stat:nth-child(3) { border-left: none; }
