@@ -3,94 +3,188 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Quique Fdez Guerra</title>
-  <meta name="description" content="Quique Fdez Guerra — Director of Engineering and Operations at Plain Concepts. Organizational strategy, engineering leadership, AI transformation. Startup collaborator and open-source builder." />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%232c3e50'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='%23f5f2ec'%3EQ%3C/text%3E%3C/svg%3E" />
-  <meta property="og:title" content="Quique Fdez Guerra" />
-  <meta property="og:description" content="Director of Engineering and Operations · Startup collaborator · Open-source builder" />
+  <title>Quique Fdez Guerra — Engineering Leader</title>
+  <meta name="description" content="Quique Fdez Guerra — Director of Engineering and Operations at Plain Concepts. Builds open-source developer tools, scales engineering organizations, and works with early-stage startups." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b0d12'/%3E%3Ctext x='32' y='43' font-family='monospace' font-size='28' font-weight='bold' text-anchor='middle' fill='%237c8cf8'%3EQ%3C/text%3E%3C/svg%3E" />
+  <meta property="og:title" content="Quique Fdez Guerra — Engineering Leader" />
+  <meta property="og:description" content="Scales 500+ engineer organizations. Ships open-source developer tools. Works with early-stage startups." />
   <meta property="og:url" content="https://ckgrafico.com" />
   <meta name="twitter:card" content="summary" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- ======================== HEADER ======================== -->
-  <header class="top">
-    <div class="container top-inner">
-      <span class="top-name">Quique Fdez Guerra</span>
-      <nav class="top-links">
-        <a href="#professional">Professional</a>
-        <a href="#startups">Startups</a>
-        <a href="#open-source">Open source</a>
+  <div class="spotlight" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow glow-1" aria-hidden="true"></div>
+  <div class="bg-glow glow-2" aria-hidden="true"></div>
+
+  <!-- ======================== NAV ======================== -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="nav-logo" href="#top" aria-label="Home">
+        <span class="logo-bracket">&lt;</span>QFG<span class="logo-bracket">/&gt;</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#open-source"><span class="nav-num">01</span> Tools</a>
+        <a href="#professional"><span class="nav-num">02</span> Track record</a>
+        <a href="#startups"><span class="nav-num">03</span> Startups</a>
       </nav>
+      <a class="btn-talk" href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">Say hi</a>
     </div>
   </header>
 
-  <main>
-    <!-- ======================== INTRO ======================== -->
-    <section class="intro">
-      <div class="container intro-grid">
-        <div class="intro-text">
-          <h1>Engineering leader,<br />builder at heart.</h1>
-          <p>
-            I'm Quique — Director of Engineering and Operations at
-            <a href="https://www.plainconcepts.com" target="_blank" rel="noopener">Plain Concepts</a>,
-            where I help a 500+ engineer organization scale through organizational strategy,
-            engineering leadership, and AI transformation.
-          </p>
-          <p>
-            I teach Change Management in the University Master's in Project Management at
-            <a href="https://www.salleurl.edu" target="_blank" rel="noopener">La Salle BCN</a>,
-            collaborate with early-stage startups, and build open-source developer tools.
-            Based in Barcelona.
-          </p>
-          <div class="intro-links">
-            <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
-            <span aria-hidden="true">·</span>
-            <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
-            <span aria-hidden="true">·</span>
-            <a href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
-          </div>
+  <main id="top">
+    <!-- ======================== HERO ======================== -->
+    <section class="hero">
+      <div class="container">
+        <p class="hero-eyebrow reveal">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          Barcelona · Director of Engineering &amp; Operations @ Plain Concepts
+        </p>
+        <h1 class="hero-title">
+          <span class="reveal d1">Quique</span>
+          <span class="reveal d2 outline">Fdez Guerra</span>
+        </h1>
+        <div class="hero-sub reveal d3">
+          <span class="mono">$ whoami</span>
+          <span class="rotator">
+            <span class="rotator-inner" id="rotator">
+              <span>engineering leader</span>
+              <span>open-source builder</span>
+              <span>professor of change management</span>
+              <span>loop engineer</span>
+              <span>startup collaborator</span>
+              <span>engineering leader</span>
+            </span>
+          </span>
         </div>
-        <div class="intro-photo">
-          <img src="assets/quique.jpg" alt="Portrait of Quique Fdez Guerra" width="360" height="360" onerror="this.parentElement.remove()" />
+        <p class="hero-desc reveal d4">
+          15 years building for the web. Today I scale how <strong>500+ engineers</strong> work,
+          teach change management at a university, and ship developer tools you can
+          <a href="#open-source">install right now</a>.
+        </p>
+        <div class="hero-cta reveal d5">
+          <a class="btn primary magnetic" href="#open-source">Try my tools</a>
+          <a class="btn magnetic" href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn magnetic" href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
         </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- ======================== MARQUEE ======================== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Engineering Leadership</span><i>✦</i>
+        <span>AI Transformation</span><i>✦</i>
+        <span>Loop Engineering</span><i>✦</i>
+        <span>Open Source</span><i>✦</i>
+        <span>Organizational Strategy</span><i>✦</i>
+        <span>Change Management</span><i>✦</i>
+        <span>Engineering Leadership</span><i>✦</i>
+        <span>AI Transformation</span><i>✦</i>
+        <span>Loop Engineering</span><i>✦</i>
+        <span>Open Source</span><i>✦</i>
+        <span>Organizational Strategy</span><i>✦</i>
+        <span>Change Management</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ======================== STATS ======================== -->
+    <section class="stats">
+      <div class="container stats-grid">
+        <div class="stat reveal"><span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span><p>years building for the web</p></div>
+        <div class="stat reveal d1"><span class="stat-num" data-count="500">0</span><span class="stat-plus">+</span><p>engineers in the org I scale</p></div>
+        <div class="stat reveal d2"><span class="stat-num" data-count="5">0</span><span class="stat-plus"></span><p>dev tools you can install today</p></div>
+        <div class="stat reveal d3"><span class="stat-num" data-count="11">0</span><span class="stat-plus">+</span><p>years running a tech non-profit</p></div>
+      </div>
+    </section>
+
+    <!-- ======================== OPEN SOURCE ======================== -->
+    <section class="section" id="open-source">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="mono section-tag">01 / open source</span>
+          <h2>Don't take my word.<br /><span class="grad">npm install it.</span></h2>
+        </div>
+        <div class="oss-grid">
+          <a class="oss tilt reveal" href="https://opencode.ckgrafico.com" target="_blank" rel="noopener" style="--dot:#f5495e">
+            <span class="oss-dot" aria-hidden="true"></span>
+            <h3>opencode-onboard</h3>
+            <p>Prepare any codebase for AI agents — one wizard, a full multi-agent workflow.</p>
+            <span class="oss-install mono" data-copy="npx opencode-onboard@latest">npx opencode-onboard@latest<i>⧉</i></span>
+          </a>
+          <a class="oss tilt reveal d1" href="https://loop.ckgrafico.com" target="_blank" rel="noopener" style="--dot:#fbbf24">
+            <span class="oss-dot" aria-hidden="true"></span>
+            <h3>loop-task</h3>
+            <p>Run anything on a cadence — the heartbeat primitive of loop engineering.</p>
+            <span class="oss-install mono" data-copy="npm i -g loop-task">npm i -g loop-task<i>⧉</i></span>
+          </a>
+          <a class="oss tilt reveal d2" href="https://inversify-props.ckgrafico.com" target="_blank" rel="noopener" style="--dot:#8b5cf6">
+            <span class="oss-dot" aria-hidden="true"></span>
+            <h3>inversify-props</h3>
+            <p>Dependency injection without the boilerplate — Vue, Lit, vanilla TS.</p>
+            <span class="oss-install mono" data-copy="npm i inversify-props">npm i inversify-props<i>⧉</i></span>
+          </a>
+          <a class="oss tilt reveal d3" href="https://inversify-hooks.ckgrafico.com" target="_blank" rel="noopener" style="--dot:#22d3ee">
+            <span class="oss-dot" aria-hidden="true"></span>
+            <h3>inversify-hooks</h3>
+            <p>Dependency injection for React in a single <code>useInject()</code> hook.</p>
+            <span class="oss-install mono" data-copy="npm i inversify-hooks">npm i inversify-hooks<i>⧉</i></span>
+          </a>
+          <a class="oss tilt reveal d4" href="https://github.com/CKGrafico/opencode-market" target="_blank" rel="noopener" style="--dot:#34d399">
+            <span class="oss-dot" aria-hidden="true"></span>
+            <h3>opencode-market</h3>
+            <p>Discover and install OpenCode agent plugins from GitHub marketplaces.</p>
+            <span class="oss-install mono" data-copy="npx opencode-market">npx opencode-market<i>⧉</i></span>
+          </a>
+          <a class="oss tilt reveal d5 oss-more" href="https://github.com/CKGrafico" target="_blank" rel="noopener" style="--dot:#7c8cf8">
+            <span class="oss-dot" aria-hidden="true"></span>
+            <h3>+ everything else</h3>
+            <p>Papanasi, Frontend Boilerplates, Remote Teams, and 100+ repos on GitHub.</p>
+            <span class="mono oss-link">github.com/CKGrafico ↗</span>
+          </a>
+        </div>
+        <p class="oss-sponsor reveal">Saved you time already? <a href="https://github.com/sponsors/CKGrafico" target="_blank" rel="noopener">Sponsors keep the loops running</a> ♥</p>
       </div>
     </section>
 
     <!-- ======================== PROFESSIONAL ======================== -->
     <section class="section" id="professional">
       <div class="container">
-        <div class="section-head">
-          <span class="section-num">01</span>
-          <h2>Professional</h2>
+        <div class="section-head reveal">
+          <span class="mono section-tag">02 / track record</span>
+          <h2>Systems that scale<br /><span class="grad">people, not just code</span></h2>
         </div>
-        <div class="section-body">
-          <div class="entry">
-            <h3><a href="https://www.plainconcepts.com" target="_blank" rel="noopener">Plain Concepts</a></h3>
-            <p class="entry-role">Director of Engineering and Operations · 11+ years</p>
-            <p>
-              Operating model, workforce planning, and organizational design for 500+ engineers
-              across multiple business units. Engineering Chapters, the Principal Engineers function,
-              and company-wide AI adoption programs.
-            </p>
-          </div>
-          <div class="entry">
-            <h3><a href="https://www.salleurl.edu" target="_blank" rel="noopener">La Salle BCN</a></h3>
-            <p class="entry-role">Associate Professor · Change Management, University Master's in Project Management</p>
-            <p>Preparing future leaders to manage resistance, align people, and land organizational change.</p>
-          </div>
-          <div class="entry">
-            <h3>Writing &amp; speaking</h3>
-            <p class="entry-role">Engineering culture, AI adoption, loop engineering</p>
-            <p>
-              Latest: <a href="https://www.linkedin.com/in/quiquefdezguerra/recent-activity/articles/" target="_blank" rel="noopener"><em>And then we stopped working alone: the rise of Loop Engineering</em></a> —
-              more on <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>.
-            </p>
-          </div>
+        <div class="rows">
+          <a class="row reveal" href="https://www.plainconcepts.com" target="_blank" rel="noopener">
+            <div class="row-main">
+              <h3>Plain Concepts</h3>
+              <p>From frontend engineer to Director of Engineering and Operations in 11 years. Co-designed the planning framework a 500+ engineer company runs on. Built the Engineering Chapters model — 15+ chapter chairs — and helped scale the Principal Engineers function. Opened the company's Romania office from zero.</p>
+            </div>
+            <span class="row-meta mono">2015 — now</span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="row reveal" href="https://www.salleurl.edu" target="_blank" rel="noopener">
+            <div class="row-main">
+              <h3>La Salle BCN — University Master's</h3>
+              <p>The professor students thank publicly on LinkedIn. Change Management: how transformations actually land — people first, strategy second.</p>
+            </div>
+            <span class="row-meta mono">professor</span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="row reveal" href="https://www.linkedin.com/in/quiquefdezguerra/recent-activity/articles/" target="_blank" rel="noopener">
+            <div class="row-main">
+              <h3>Writing that engineers argue about</h3>
+              <p><em>And then we stopped working alone: the rise of Loop Engineering</em> — plus a running series on the values engineers need in the AI era.</p>
+            </div>
+            <span class="row-meta mono">essays</span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
       </div>
     </section>
@@ -98,66 +192,49 @@
     <!-- ======================== STARTUPS ======================== -->
     <section class="section" id="startups">
       <div class="container">
-        <div class="section-head">
-          <span class="section-num">02</span>
-          <h2>Startups</h2>
+        <div class="section-head reveal">
+          <span class="mono section-tag">03 / startups</span>
+          <h2>Early-stage teams<br /><span class="grad">call me back</span></h2>
         </div>
-        <div class="section-body">
-          <ul class="link-list">
-            <li>
-              <a href="https://partypops.app" target="_blank" rel="noopener">partypops.app</a>
-              <span>Collaborator</span>
-            </li>
-            <li>
-              <a href="https://helpdev.org" target="_blank" rel="noopener">helpdev.org</a>
-              <span>Founder — technology for social good, 2013–2024</span>
-            </li>
-            <li>
-              <a href="https://supplaay.com" target="_blank" rel="noopener">supplaay.com</a>
-              <span>Technical contributor</span>
-            </li>
-          </ul>
+        <div class="rows">
+          <a class="row reveal" href="https://helpdev.org" target="_blank" rel="noopener">
+            <div class="row-main">
+              <h3>helpdev.org</h3>
+              <p>Founded and ran a volunteer-driven tech non-profit for 11 years — product, engineering, and people, on a budget of zero.</p>
+            </div>
+            <span class="row-meta mono">founder · 2013—24</span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="row reveal" href="https://partypops.app" target="_blank" rel="noopener">
+            <div class="row-main">
+              <h3>partypops.app</h3>
+              <p>Hands-on collaborator from the early days.</p>
+            </div>
+            <span class="row-meta mono">collaborator</span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="row reveal" href="https://supplaay.com" target="_blank" rel="noopener">
+            <div class="row-main">
+              <h3>supplaay.com</h3>
+              <p>Helped lay the technical foundations as an early contributor.</p>
+            </div>
+            <span class="row-meta mono">contributor</span>
+            <span class="row-arrow" aria-hidden="true">→</span>
+          </a>
         </div>
+        <p class="oss-sponsor reveal">Building something early? <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">I like hearing about it</a>.</p>
       </div>
     </section>
 
-    <!-- ======================== OPEN SOURCE ======================== -->
-    <section class="section" id="open-source">
-      <div class="container">
-        <div class="section-head">
-          <span class="section-num">03</span>
-          <h2>Open source</h2>
-        </div>
-        <div class="section-body">
-          <ul class="link-list">
-            <li>
-              <a href="https://opencode.ckgrafico.com" target="_blank" rel="noopener">opencode-onboard</a>
-              <span>Prepare any codebase for AI agents</span>
-            </li>
-            <li>
-              <a href="https://loop.ckgrafico.com" target="_blank" rel="noopener">loop-task</a>
-              <span>Run anything on a cadence — loop engineering for your terminal</span>
-            </li>
-            <li>
-              <a href="https://inversify-props.ckgrafico.com" target="_blank" rel="noopener">inversify-props</a>
-              <span>Dependency injection without the boilerplate</span>
-            </li>
-            <li>
-              <a href="https://inversify-hooks.ckgrafico.com" target="_blank" rel="noopener">inversify-hooks</a>
-              <span>Dependency injection for React in a single hook</span>
-            </li>
-            <li>
-              <a href="https://github.com/CKGrafico/opencode-market" target="_blank" rel="noopener">opencode-market</a>
-              <span>Discover and install OpenCode agent plugins</span>
-            </li>
-          </ul>
-          <p class="section-note">
-            Earlier work — <a href="https://papanasi.js.org" target="_blank" rel="noopener">Papanasi</a>,
-            <a href="https://github.com/CKGrafico/Frontend-Boilerplates" target="_blank" rel="noopener">Frontend Boilerplates</a>,
-            <a href="https://github.com/CKGrafico/remote-teams" target="_blank" rel="noopener">Remote Teams</a> —
-            lives on <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>.
-            If these tools save you time, you can <a href="https://github.com/sponsors/CKGrafico" target="_blank" rel="noopener">sponsor the work</a>.
-          </p>
+    <!-- ======================== CONTACT ======================== -->
+    <section class="contact" id="contact">
+      <div class="container center">
+        <p class="mono section-tag reveal">// next</p>
+        <h2 class="contact-title reveal d1">Your move<span class="grad">.</span></h2>
+        <div class="hero-cta center reveal d2">
+          <a class="btn primary magnetic" href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn magnetic" href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn magnetic" href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
         </div>
       </div>
     </section>
@@ -166,14 +243,11 @@
   <!-- ======================== FOOTER ======================== -->
   <footer class="footer">
     <div class="container footer-inner">
-      <span>© Quique Fdez Guerra</span>
-      <span class="footer-links">
-        <a href="https://www.linkedin.com/in/quiquefdezguerra" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="https://github.com/CKGrafico" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://x.com/ckgrafico" target="_blank" rel="noopener">X</a>
-      </span>
+      <span class="mono">© <span id="year">2026</span> Quique Fdez Guerra</span>
+      <span class="mono footer-loc">41.3874° N, 2.1686° E — Barcelona</span>
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
