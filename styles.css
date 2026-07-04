@@ -148,7 +148,7 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 .rotator-inner {
   display: flex;
   flex-direction: column;
-  animation: rotate-words 14s cubic-bezier(0.85, 0, 0.15, 1) infinite;
+  animation: rotate-words 16s cubic-bezier(0.85, 0, 0.15, 1) infinite;
 }
 
 .rotator-inner span {
@@ -162,12 +162,14 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 }
 
 @keyframes rotate-words {
-  0%, 16% { transform: translateY(0); }
-  20%, 36% { transform: translateY(-1.6em); }
-  40%, 56% { transform: translateY(-3.2em); }
-  60%, 76% { transform: translateY(-4.8em); }
-  80%, 96% { transform: translateY(-6.4em); }
-  100% { transform: translateY(-8em); }
+  0%, 11% { transform: translateY(0); }
+  14%, 25% { transform: translateY(-1.6em); }
+  28%, 39% { transform: translateY(-3.2em); }
+  43%, 54% { transform: translateY(-4.8em); }
+  57%, 68% { transform: translateY(-6.4em); }
+  71%, 82% { transform: translateY(-8em); }
+  86%, 97% { transform: translateY(-9.6em); }
+  100% { transform: translateY(-9.6em); }
 }
 
 .hero-desc {
@@ -366,6 +368,34 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 .oss:hover .oss-link { color: var(--ivory-sec); }
 
 .aside { margin-top: 40px; color: var(--muted); font-size: 0.95rem; }
+
+/* ---------------- Strategy intro ---------------- */
+.strategy-intro { margin-bottom: 60px; }
+
+.lede {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.35rem;
+  line-height: 1.6;
+  color: var(--ivory-sec);
+  max-width: 62ch;
+  margin-bottom: 30px;
+}
+
+.tag-row { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.tag {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ivory-sec);
+  border: 1px solid var(--line);
+  padding: 9px 15px;
+  transition: border-color 0.25s, color 0.25s;
+}
+
+.tag:hover { border-color: var(--steel); color: var(--ivory); }
 
 /* ---------------- Rows ---------------- */
 .rows { border-top: 1px solid var(--line); }
