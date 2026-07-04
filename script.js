@@ -1,17 +1,8 @@
 // ============================================================
-// ckgrafico.com v3 - spotlight, reveals, counters, card glow,
-// magnetic buttons, install-command copy
+// ckgrafico.com v4 - reveals, counters, install-command copy
 // ============================================================
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-
-// ---------- Cursor spotlight ----------
-if (!reduceMotion) {
-  document.addEventListener('pointermove', (e) => {
-    document.documentElement.style.setProperty('--mx', e.clientX + 'px')
-    document.documentElement.style.setProperty('--my', e.clientY + 'px')
-  })
-}
 
 // ---------- Scroll reveal ----------
 if (!reduceMotion && 'IntersectionObserver' in window) {
@@ -62,30 +53,6 @@ if ('IntersectionObserver' in window && !reduceMotion) {
   document.querySelectorAll('.stat-num').forEach((el) => counterObs.observe(el))
 } else {
   document.querySelectorAll('.stat-num').forEach((el) => (el.textContent = el.dataset.count))
-}
-
-// ---------- OSS card glow follows cursor ----------
-document.querySelectorAll('.oss').forEach((card) => {
-  card.addEventListener('pointermove', (e) => {
-    const rect = card.getBoundingClientRect()
-    card.style.setProperty('--cx', e.clientX - rect.left + 'px')
-    card.style.setProperty('--cy', e.clientY - rect.top + 'px')
-  })
-})
-
-// ---------- Magnetic buttons ----------
-if (!reduceMotion) {
-  document.querySelectorAll('.magnetic').forEach((btn) => {
-    btn.addEventListener('pointermove', (e) => {
-      const rect = btn.getBoundingClientRect()
-      const x = e.clientX - rect.left - rect.width / 2
-      const y = e.clientY - rect.top - rect.height / 2
-      btn.style.transform = `translate(${x * 0.18}px, ${y * 0.3}px)`
-    })
-    btn.addEventListener('pointerleave', () => {
-      btn.style.transform = ''
-    })
-  })
 }
 
 // ---------- Install-command copy (inside links: don't navigate) ----------
