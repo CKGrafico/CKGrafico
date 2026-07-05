@@ -457,6 +457,32 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 
 .row:hover .row-arrow { transform: translateX(8px); color: var(--ivory); }
 
+/* non-link rows (talks with no url) */
+.row:not(a) { cursor: default; }
+.row:not(a):hover { background: none; padding-left: 8px; padding-right: 8px; }
+
+/* ---------------- Talk expander ---------------- */
+.talk-more.collapsed { display: none; }
+
+.talk-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding: 12px 22px;
+  background: transparent;
+  border: 1px solid var(--line);
+  color: var(--ivory-sec);
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: border-color 0.25s, color 0.25s;
+}
+
+.talk-toggle:hover { border-color: var(--ivory); color: var(--ivory); }
+
 /* ---------------- Contact ---------------- */
 .contact {
   padding: 150px 0 130px;

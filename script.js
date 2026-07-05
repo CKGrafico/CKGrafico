@@ -80,6 +80,20 @@ document.querySelectorAll('.oss-install').forEach((pill) => {
   })
 })
 
+// ---------- Talk list expander ----------
+const talkMore = document.getElementById('talk-more')
+const talkToggle = document.getElementById('talk-toggle')
+if (talkMore && talkToggle) {
+  const hiddenCount = talkMore.querySelectorAll('.row').length
+  talkMore.classList.add('collapsed') // collapse only when JS is available
+  talkToggle.hidden = false
+  talkToggle.addEventListener('click', () => {
+    const open = talkMore.classList.toggle('collapsed') === false
+    talkToggle.setAttribute('aria-expanded', String(open))
+    talkToggle.textContent = open ? 'Show fewer talks ↑' : `Show all ${hiddenCount + 6} talks ↓`
+  })
+}
+
 // ---------- Footer year ----------
 const year = document.getElementById('year')
 if (year) year.textContent = new Date().getFullYear()
