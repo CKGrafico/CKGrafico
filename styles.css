@@ -417,6 +417,15 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 
 .row:hover .row-emoji { transform: translateY(-3px); }
 
+.row-year {
+  flex-shrink: 0;
+  width: 52px;
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  color: var(--steel);
+  letter-spacing: 0.02em;
+}
+
 .row-main { flex-grow: 1; }
 
 .row h3 {
