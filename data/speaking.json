@@ -1,0 +1,33 @@
+{
+  "intro": "For six years I gave talks across Europe, in Spanish and English. A meetup of ten or a conference of two thousand got the same preparation. I never called myself a speaker; I just cared about the room, whoever was in it.",
+  "tags": ["27 talks", "2016-2022", "6 countries", "Spanish / English"],
+  "talks": [
+    { "year": "2022", "title": "Google DevFest", "desc": "Why and how to become a Google Developer Expert.", "location": "Bucharest", "kind": "slides", "url": "https://docs.google.com/presentation/d/1eWSxLG7w7tPQ1P3SPF_h3YmeorOZxhlh2OrunIFXTpk/edit" },
+    { "year": "2019", "title": "Vue.js Amsterdam", "desc": "Empowering Vue with TypeScript, Inversify &amp; Vuex.", "location": "Amsterdam", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/empowering-vue-with-typescript-inversify-vuex-and-some-other-super-tools-131901058" },
+    { "year": "2019", "title": "dotNET Spain", "desc": "Empowering Vue with TypeScript, Inversify, Vuex and other super tools.", "location": "Madrid", "kind": "video", "url": "https://www.youtube.com/watch?v=Uw7y1ZISC6g" },
+    { "year": "2018", "title": "Commit Conf", "desc": "Real and scalable apps with Nuxt, Vuex &amp; TypeScript.", "location": "Madrid", "kind": "slides", "url": "https://es.slideshare.net/CKGrafico/real-and-scalable-applications-with-nuxt-vuex-and-typescript" },
+    { "year": "2017", "title": "LondonJS", "desc": "What is TypeScript and how it helps your team.", "location": "London", "kind": "repo", "url": "https://github.com/CKGrafico/Why-TypeScript" },
+    { "year": "2016", "title": "Codemotion Spain", "desc": "Bots are the new apps.", "location": "Madrid", "kind": "video", "url": "https://www.youtube.com/watch?v=kgA6Y5FQ8gs" },
+    { "year": "2022", "title": "Stories of Web", "desc": "Why and how to become a Google Developer Expert.", "location": "Bucharest", "kind": "slides", "url": "https://docs.google.com/presentation/d/1eWSxLG7w7tPQ1P3SPF_h3YmeorOZxhlh2OrunIFXTpk/edit" },
+    { "year": "2019", "title": "Vue.js Frankfurt", "desc": "Empowering Vue with TypeScript, Inversify &amp; Vuex.", "location": "Frankfurt", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/empowering-vue-with-typescript-inversify-vuex-and-some-other-super-tools-131901058" },
+    { "year": "2019", "title": "NetConf BCN", "desc": "Dependency injection &amp; patterns in components with TypeScript.", "location": "Barcelona", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/you-can-inject-dependencies-in-your-components-lets-do-it" },
+    { "year": "2019", "title": "MallorcaJS", "desc": "Dependency injection &amp; patterns in components with TypeScript.", "location": "Mallorca", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/you-can-inject-dependencies-in-your-components-lets-do-it" },
+    { "year": "2019", "title": "CanariasJS", "desc": "Dependency injection &amp; patterns in components with TypeScript.", "location": "Tenerife", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/you-can-inject-dependencies-in-your-components-lets-do-it" },
+    { "year": "2019", "title": "VueDay", "desc": "Dependency injection &amp; patterns in components with TypeScript.", "location": "Alicante", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/you-can-inject-dependencies-in-your-components-lets-do-it" },
+    { "year": "2019", "title": "Vue.js Roadtrip", "desc": "Dependency injection &amp; patterns in components with TypeScript.", "location": "Barcelona", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/you-can-inject-dependencies-in-your-components-lets-do-it" },
+    { "year": "2018", "title": "Vue.js Roadtrip", "desc": "Real and scalable apps with Nuxt, Vuex &amp; TypeScript.", "location": "Barcelona", "kind": "video", "url": "https://es.slideshare.net/CKGrafico/real-and-scalable-applications-with-nuxt-vuex-and-typescript" },
+    { "year": "2018", "title": "Vue Day", "desc": "Real and scalable apps with Nuxt, Vuex &amp; TypeScript.", "location": "Alicante", "kind": "slides", "url": "https://es.slideshare.net/CKGrafico/real-and-scalable-applications-with-nuxt-vuex-and-typescript" },
+    { "year": "2018", "title": "Opensouthcode", "desc": "Real and scalable apps with Nuxt, Vuex &amp; TypeScript.", "location": "Malaga", "kind": "slides", "url": "https://es.slideshare.net/CKGrafico/real-and-scalable-applications-with-nuxt-vuex-and-typescript" },
+    { "year": "2017", "title": "Full Stack Fest", "desc": "Vue.js + TypeScript workshop.", "location": "Barcelona", "kind": "repo", "url": "https://github.com/PlainConcepts/VueJS-Workshop" },
+    { "year": "2017", "title": "Schibsted &amp; InfoJobs", "desc": "¿Qué es TypeScript y cómo ayudará a mi equipo?", "location": "Barcelona", "kind": "repo", "url": "https://github.com/CKGrafico/Why-TypeScript" },
+    { "year": "2017", "title": "Open Bravo Space", "desc": "Hablemos de TypeScript.", "location": "Pamplona", "kind": "repo", "url": "https://github.com/CKGrafico/Why-TypeScript" },
+    { "year": "2017", "title": "CDMon Development Day", "desc": "Fast talk about TypeScript.", "location": "Barcelona", "kind": "repo", "url": "https://github.com/CKGrafico/Why-TypeScript" },
+    { "year": "2017", "title": "Murcia Meetup Day", "desc": "¿Qué es TypeScript y cómo ayudará a mi equipo?", "location": "Murcia", "kind": "repo", "url": "https://github.com/CKGrafico/Why-TypeScript" },
+    { "year": "2017", "title": "Nova Meetup", "desc": "Technology transformation.", "location": "Barcelona", "kind": "" },
+    { "year": "2016", "title": "University Tour Microsoft", "desc": "Lord of the codes: Visual Studio.", "location": "Barcelona", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/lord-of-the-codes-visual-studio-y-todo-lo-que-puedes-hacer-con-l" },
+    { "year": "2016", "title": "Tech Summit Spain", "desc": "Cordova productivity tools.", "location": "Madrid", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/cordova-productivity-tools" },
+    { "year": "2016", "title": "Mobility Day", "desc": "Working with Apache Cordova.", "location": "Barcelona", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/cordova-productivity-tools" },
+    { "year": "2016", "title": "Geekapalooza", "desc": "Yo solo te pedí un plátano.", "location": "Andorra", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/yo-solo-te-ped-un-pltano" },
+    { "year": "2016", "title": "Tech Fest", "desc": "Nos vamos de SPA.", "location": "Madrid", "kind": "event", "url": "https://www.urjc.es/todas-las-noticias-de-actualidad-cientifica/1777-la-urjc-celebra-la-v-edicion-del-tech-fest" }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "intro": "I care less about the next project and more about the systems behind organizational performance: workforce and capacity planning, career frameworks, distributed technical leadership, and the operating models that let a growing technical organization adapt without breaking.",
+  "tags": [
+    "Organizational Strategy &amp; Design",
+    "Engineering Leadership",
+    "Engineering Advisor",
+    "Strategy &amp; Operations",
+    "AI Adoption &amp; Transformation",
+    "Change Management",
+    "Technical Leadership Development",
+    "Scaling Engineering Organizations"
+  ],
+  "rows": [
+    {
+      "url": "https://www.plainconcepts.com",
+      "emoji": "assets/emoji/office.png",
+      "title": "Plain Concepts",
+      "desc": "From frontend engineer to Director of Engineering and Operations in 11 years. Co-designed the planning framework a 500+ engineer company runs on. Built the Engineering Chapters model, 15+ chapter chairs, and helped scale the Principal Engineers function. Opened the company's Romania office from zero.",
+      "meta": "2015-now"
+    },
+    {
+      "url": "https://www.salleurl.edu",
+      "emoji": "assets/emoji/gradcap.png",
+      "title": "La Salle BCN · University Master's",
+      "desc": "The professor students thank publicly on LinkedIn. Change Management: how transformations actually land: people first, strategy second.",
+      "meta": "professor"
+    },
+    {
+      "url": "https://www.linkedin.com/in/quiquefdezguerra/recent-activity/articles/",
+      "emoji": "assets/emoji/memo.png",
+      "title": "Writing that engineers argue about",
+      "desc": "<em>And then we stopped working alone: the rise of Loop Engineering</em>, plus a running series on the values engineers need in the AI era.",
+      "meta": "essays"
+    }
+  ]
+}

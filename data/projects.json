@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://opencode.ckgrafico.com",
+    "logo": "assets/onboard-logo.png",
+    "title": "opencode-onboard",
+    "desc": "Prepare any codebase for AI agents: one wizard, a full multi-agent workflow.",
+    "install": "npx opencode-onboard@latest"
+  },
+  {
+    "url": "https://loop.ckgrafico.com",
+    "logo": "assets/emoji/thread.png",
+    "title": "loop-task",
+    "desc": "Run anything on a cadence, the heartbeat primitive of loop engineering.",
+    "install": "npm i -g loop-task"
+  },
+  {
+    "url": "https://inversify-props.ckgrafico.com",
+    "logo": "assets/emoji/jellyfish.png",
+    "title": "inversify-props",
+    "desc": "Dependency injection without the boilerplate: Vue, Lit, vanilla TS.",
+    "install": "npm i inversify-props"
+  },
+  {
+    "url": "https://inversify-hooks.ckgrafico.com",
+    "logo": "assets/emoji/hook.png",
+    "title": "inversify-hooks",
+    "desc": "Dependency injection for React in a single <code>useInject()</code> hook.",
+    "install": "npm i inversify-hooks"
+  },
+  {
+    "url": "https://github.com/CKGrafico/opencode-market",
+    "logo": "assets/emoji/store.png",
+    "title": "opencode-market",
+    "desc": "Discover and install OpenCode agent plugins from GitHub marketplaces.",
+    "install": "npx opencode-market"
+  },
+  {
+    "url": "https://github.com/CKGrafico",
+    "logo": "assets/emoji/star.png",
+    "title": "+ everything else",
+    "desc": "Papanasi, Frontend Boilerplates, Remote Teams, and 100+ repos on GitHub.",
+    "linkLabel": "github.com/CKGrafico ↗"
+  }
+]
