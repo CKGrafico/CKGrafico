@@ -1,11 +1,10 @@
-<p align="center">
-  <img src="https://i.imgur.com/JHN0m9r.png" width="1280" title="Hi I'm Quique">
-</p>
-
 ## Active Projects:
 
-- 🧰 [Opencode Onboard CLI](https://opencode.ckgrafico.com)
-- 🧵 [Loop Task CLI](https://github.com/CKGrafico/loop-cli)
+- ☄️ Orbion - Control plane for Loop Engineering (soon)
+- 🧰 [Opencode Onboard - Prepare a project for AI develompent](https://opencode.ckgrafico.com)
+- 🧵 [Loop Task - Shell commands at human-readable intervals](https://loop.ckgrafico.com)
+
+## Other Tools:
 - 🪼 [Inversify Props](https://inversify-props.ckgrafico.com)
 - 🪝 [Inversify Hooks](https://inversify-hooks.ckgrafico.com)
 - 🏪 [Opencode Market CLI](https://github.com/CKGrafico/opencode-market)
