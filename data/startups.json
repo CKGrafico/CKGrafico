@@ -2,21 +2,21 @@
   "cards": [
     {
       "url": "https://helpdev.org",
-      "emoji": "assets/emoji/handshake.png",
+      "emoji": "🤝",
       "title": "helpdev.org",
       "desc": "Founded and ran a volunteer-driven tech non-profit for 11 years: product, engineering, and people, on a budget of zero.",
       "meta": "founder · 2013-24"
     },
     {
       "url": "https://partypops.app",
-      "emoji": "assets/emoji/party.png",
+      "emoji": "🎉",
       "title": "partypops.app",
       "desc": "Hands-on collaborator from the early days.",
       "meta": "collaborator"
     },
     {
       "url": "https://supplaay.com",
-      "emoji": "assets/emoji/package.png",
+      "emoji": "📦",
       "title": "supplaay.com",
       "desc": "Helped lay the technical foundations as an early contributor.",
       "meta": "contributor"

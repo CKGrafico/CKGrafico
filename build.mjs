@@ -20,6 +20,15 @@ const readJson = async (name) => JSON.parse(await readFile(join(DATA, name), 'ut
 
 const VISIBLE_TALKS = 6
 
+// Resolve an emoji field to an <img> src.
+// A plain emoji character -> Apple-styled CDN image.
+// A path/URL (e.g. "assets/onboard-logo.png") is used verbatim.
+function emojiSrc(value) {
+  if (!value) return value
+  if (value.includes('/')) return value
+  return `https://emoji-cdn.mqrio.dev/${encodeURIComponent(value)}?style=apple`
+}
+
 function renderProjects(items) {
   const delay = (i) => (i === 0 ? '' : ` d${i}`)
   return items
@@ -28,7 +37,7 @@ function renderProjects(items) {
         ? `<span class="oss-install mono" data-copy="${p.install}">${p.install}<i>⧉</i></span>`
         : `<span class="oss-link mono">${p.linkLabel}</span>`
       return `          <a class="oss reveal${delay(i)}" href="${p.url}" target="_blank" rel="noopener">
-            <img class="oss-emoji" src="${p.logo}" alt="" width="56" height="56" loading="lazy" />
+            <img class="oss-emoji" src="${emojiSrc(p.logo)}" alt="" width="56" height="56" loading="lazy" />
             <h3>${p.title}</h3>
             <p>${p.desc}</p>
             ${action}
@@ -52,7 +61,7 @@ function renderStrategyRows(rows) {
   return rows
     .map(
       (r) => `          <a class="row reveal" href="${r.url}" target="_blank" rel="noopener">
-            <img class="row-emoji" src="${r.emoji}" alt="" width="44" height="44" loading="lazy" />
+            <img class="row-emoji" src="${emojiSrc(r.emoji)}" alt="" width="44" height="44" loading="lazy" />
             <div class="row-main">
               <h3>${r.title}</h3>
               <p>${r.desc}</p>
@@ -100,7 +109,7 @@ function renderStartupRows(cards) {
   return cards
     .map(
       (c) => `          <a class="row reveal" href="${c.url}" target="_blank" rel="noopener">
-            <img class="row-emoji" src="${c.emoji}" alt="" width="44" height="44" loading="lazy" />
+            <img class="row-emoji" src="${emojiSrc(c.emoji)}" alt="" width="44" height="44" loading="lazy" />
             <div class="row-main">
               <h3>${c.title}</h3>
               <p>${c.desc}</p>

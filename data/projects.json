@@ -1,5 +1,12 @@
 [
   {
+    "url": "https://github.com/CKGrafico",
+    "logo": "☄️",
+    "title": "Orbion",
+    "desc": "Control plane for Loop Engineering.",
+    "linkLabel": "Coming soon"
+  },
+  {
     "url": "https://opencode.ckgrafico.com",
     "logo": "assets/onboard-logo.png",
     "title": "opencode-onboard",
@@ -8,35 +15,35 @@
   },
   {
     "url": "https://loop.ckgrafico.com",
-    "logo": "assets/emoji/thread.png",
+    "logo": "🧵",
     "title": "loop-task",
-    "desc": "Run anything on a cadence, the heartbeat primitive of loop engineering.",
+    "desc": "Async loops on a cadence: give any command or AI agent an interval, then watch, pause, and chain them from one terminal dashboard.",
     "install": "npm i -g loop-task"
   },
   {
     "url": "https://inversify-props.ckgrafico.com",
-    "logo": "assets/emoji/jellyfish.png",
+    "logo": "🪼",
     "title": "inversify-props",
     "desc": "Dependency injection without the boilerplate: Vue, Lit, vanilla TS.",
     "install": "npm i inversify-props"
   },
   {
     "url": "https://inversify-hooks.ckgrafico.com",
-    "logo": "assets/emoji/hook.png",
+    "logo": "🪝",
     "title": "inversify-hooks",
     "desc": "Dependency injection for React in a single <code>useInject()</code> hook.",
     "install": "npm i inversify-hooks"
   },
   {
     "url": "https://github.com/CKGrafico/opencode-market",
-    "logo": "assets/emoji/store.png",
+    "logo": "🏪",
     "title": "opencode-market",
     "desc": "Discover and install OpenCode agent plugins from GitHub marketplaces.",
     "install": "npx opencode-market"
   },
   {
     "url": "https://github.com/CKGrafico",
-    "logo": "assets/emoji/star.png",
+    "logo": "⭐",
     "title": "+ everything else",
     "desc": "Papanasi, Frontend Boilerplates, Remote Teams, and 100+ repos on GitHub.",
     "linkLabel": "github.com/CKGrafico ↗"
