@@ -54,7 +54,7 @@
     "install": "npm i inversify-hooks"
   },
   {
-    "url": "https://ckgrafico.github.io/doodle-games/",
+    "url": "https://doodle.ckgrafico.com",
     "logo": "✏️",
     "title": "Doodle Games",
     "tag": "for fun",

@@ -19,7 +19,7 @@
 
 ## For Fun:
 
-- ✏️ [Doodle Games - Six hand-drawn sports games in Three.js, no build step](https://ckgrafico.github.io/doodle-games/)
+- ✏️ [Doodle Games - Six hand-drawn sports games in Three.js, no build step](https://doodle.ckgrafico.com)
 
 ## More about me
 - <img src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg" width="14"/> Frontend Lover
