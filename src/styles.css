@@ -271,7 +271,7 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 /* ---------------- OSS cards ---------------- */
 .oss-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   border-top: 1px solid var(--line);
   border-left: 1px solid var(--line);
 }
@@ -308,6 +308,14 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
   letter-spacing: -0.01em;
 }
 
+.oss-tag {
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: -6px;
+}
+
 .oss p { color: var(--ivory-sec); font-size: 0.9rem; flex-grow: 1; }
 
 .oss code {
@@ -328,7 +336,14 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
   transition: border-color 0.25s, color 0.25s;
 }
 
-.oss-install i { font-style: normal; opacity: 0.7; }
+.oss-install i { font-style: normal; opacity: 0.7; flex-shrink: 0; }
+
+/* Long scoped commands: shrink a notch so they hold one line, and if they still
+   don't, break after the scope slash rather than mid-word. */
+.oss-cmd { min-width: 0; }
+.oss-cmd .nb { white-space: nowrap; }
+.oss-install.long { font-size: 0.63rem; padding-left: 12px; padding-right: 12px; }
+.oss-install { min-height: 42px; }
 
 .oss-install:hover { border-color: var(--ivory); color: var(--ivory); }
 
@@ -535,7 +550,7 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: 48px; }
   .hero-portrait { max-width: 300px; }
-  .oss-grid { grid-template-columns: repeat(2, 1fr); }
+  .oss-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .stat:nth-child(3) { border-left: none; }
   .stat { border-top: 1px solid var(--line-soft); }
@@ -546,7 +561,7 @@ p a:hover, .aside a:hover { color: var(--ivory); border-color: var(--ivory); }
   .nav-links { display: none; }
   .hero { padding: 110px 0 70px; }
   .section { padding: 80px 0 40px; }
-  .oss-grid { grid-template-columns: 1fr; }
+  .oss-grid { grid-template-columns: minmax(0, 1fr); }
   .stats-grid { grid-template-columns: 1fr; }
   .stat { border-left: none; border-top: 1px solid var(--line-soft); }
   .stat:first-child { border-top: none; }

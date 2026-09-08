@@ -29,16 +29,30 @@ function emojiSrc(value) {
   return `https://emoji-cdn.mqrio.dev/${encodeURIComponent(value)}?style=apple`
 }
 
+// Scoped package names are long. Keep each segment unbreakable so the chip never
+// splits mid-word ("agent-" / "harness"), and only wraps after the scope slash.
+const LONG_INSTALL = 30
+
+function installLabel(cmd) {
+  const parts = cmd.split('/')
+  const segments = parts
+    .map((seg, i) => `<span class="nb">${seg}${i < parts.length - 1 ? '/' : ''}</span>`)
+    .join('<wbr>')
+  return `<span class="oss-cmd">${segments}</span>`
+}
+
 function renderProjects(items) {
   const delay = (i) => (i === 0 ? '' : ` d${i}`)
   return items
     .map((p, i) => {
+      const long = p.install && p.install.length > LONG_INSTALL ? ' long' : ''
       const action = p.install
-        ? `<span class="oss-install mono" data-copy="${p.install}">${p.install}<i>⧉</i></span>`
+        ? `<span class="oss-install mono${long}" data-copy="${p.install}">${installLabel(p.install)}<i>⧉</i></span>`
         : `<span class="oss-link mono">${p.linkLabel}</span>`
+      const tag = p.tag ? `\n            <span class="oss-tag mono">${p.tag}</span>` : ''
       return `          <a class="oss reveal${delay(i)}" href="${p.url}" target="_blank" rel="noopener">
             <img class="oss-emoji" src="${emojiSrc(p.logo)}" alt="" width="56" height="56" loading="lazy" />
-            <h3>${p.title}</h3>
+            <h3>${p.title}</h3>${tag}
             <p>${p.desc}</p>
             ${action}
           </a>`
