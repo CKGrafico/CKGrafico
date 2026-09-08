@@ -1,12 +1,5 @@
 [
   {
-    "url": "https://github.com/CKGrafico",
-    "logo": "☄️",
-    "title": "Orbion",
-    "desc": "Control plane for agentic work on GitHub: the agents that refine, implement and merge your issues, and the queue still waiting on you.",
-    "linkLabel": "Coming soon"
-  },
-  {
     "url": "https://plainconceptsplatform.github.io/agent-harness/",
     "logo": "assets/onboard-logo.png",
     "title": "agent-harness",
@@ -59,6 +52,14 @@
     "title": "inversify-hooks",
     "desc": "Dependency injection for React in a single <code>useInject()</code> hook.",
     "install": "npm i inversify-hooks"
+  },
+  {
+    "url": "https://ckgrafico.github.io/doodle-games/",
+    "logo": "✏️",
+    "title": "Doodle Games",
+    "tag": "for fun",
+    "desc": "Six hand-drawn sports games in Three.js, no build step: padel, football, golf, water polo, pétanque and pickleball.",
+    "linkLabel": "Play in the browser ↗"
   },
   {
     "url": "https://github.com/CKGrafico",
