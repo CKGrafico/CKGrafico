@@ -38,19 +38,14 @@ export function validateWriting(data) {
   return { checkedOn: date(data.checkedOn), articles }
 }
 
-export function selectWriting(snapshot, previous) {
+export function selectWriting(snapshot) {
   if (snapshot.complete !== true || !Array.isArray(snapshot.articles)) throw new Error('Incomplete LinkedIn collection; keep the previous selection.')
-  const measured = snapshot.articles.filter((article) => Number.isSafeInteger(article.impressions) && article.impressions >= 0)
-  if (!measured.length) throw new Error('No verified impressions; keep the previous selection.')
-  if (previous) {
-    for (const article of previous.articles) {
-      if (!measured.some((candidate) => candidate.url === article.url)) {
-        throw new Error('A currently featured article has no fresh metric; keep the previous selection and investigate.')
-      }
-    }
-  }
-  measured.sort((a, b) => b.impressions - a.impressions || b.publishedAt.localeCompare(a.publishedAt) || a.url.localeCompare(b.url))
-  return validateWriting({ checkedOn: snapshot.checkedOn, articles: measured.slice(0, 3) })
+  const recent = [...snapshot.articles]
+    .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)
+      || (Number.isSafeInteger(b.impressions) ? b.impressions : -1) - (Number.isSafeInteger(a.impressions) ? a.impressions : -1)
+      || a.url.localeCompare(b.url))
+    .slice(0, 3)
+  return validateWriting({ checkedOn: snapshot.checkedOn, articles: recent })
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
