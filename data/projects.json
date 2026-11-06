@@ -1,71 +1,56 @@
 [
   {
-    "url": "https://plainconceptsplatform.github.io/agent-harness/",
-    "logo": "assets/onboard-logo.png",
-    "title": "agent-harness",
-    "tag": "with the Platform team",
-    "desc": "Prepare any codebase for AI agents. Wires OpenCode, OpenSpec, codegraph and agentmemory into one multi-agent workflow that runs on native parallel subagents.",
-    "install": "npx @plainconceptsplatform/agent-harness"
+    "url": "https://platform.plainconcepts.dev",
+    "title": "Platform Foundations",
+    "group": "platform",
+    "desc": "The shared theme, engineering conventions and reference architecture behind our apps."
   },
   {
-    "url": "https://github.com/PlainConceptsPlatform/loop-task",
-    "logo": "🧵",
-    "title": "loop-task",
-    "tag": "with the Platform team",
-    "desc": "Give any command or AI agent an interval, then watch, pause and chain them from one terminal board.",
-    "install": "npm i -g @plainconceptsplatform/loop-task"
+    "url": "https://harness.platform.plainconcepts.dev",
+    "title": "Agent Harness",
+    "group": "platform",
+    "desc": "Set up a repository for AI agents, with shared skills, project context and a workflow for changes."
   },
   {
-    "url": "https://plainconceptsplatform.github.io/project-health/",
-    "logo": "📊",
-    "title": "project-health",
-    "tag": "with the Platform team",
-    "desc": "DORA metrics for your repos, read straight from the GitHub API. No database, no service to run, and honest about the two metrics GitHub cannot answer.",
-    "linkLabel": "Live demo ↗"
+    "url": "https://workflows.platform.plainconcepts.dev",
+    "title": "Agentic Workflows",
+    "group": "platform",
+    "desc": "GitHub Actions that take issues through planning, implementation and review, with checks before merging."
+  },
+  {
+    "url": "https://health.platform.plainconcepts.dev",
+    "title": "Project Health",
+    "group": "platform",
+    "desc": "Track engineering checks, delivery and AI adoption from GitHub. Missing data stays visible as unavailable."
   },
   {
     "url": "https://papanasi.js.org",
-    "logo": "🥯",
     "title": "papanasi",
-    "tag": "602 ★ · since 2022",
-    "desc": "One UI library, eight frameworks. Write a component once and ship it to Angular, React, Vue, Svelte, Solid, Qwik, Preact and Web Components.",
-    "install": "npm i papanasi"
+    "desc": "Write a UI component once and use it across eight JavaScript frameworks."
   },
   {
     "url": "https://boilerplates.js.org",
-    "logo": "🧱",
     "title": "Frontend Boilerplates",
-    "tag": "381 ★ · 2017-23",
-    "desc": "The file structures and good practices behind a decade of frontend projects, as starting points you can actually clone.",
-    "linkLabel": "boilerplates.js.org ↗"
+    "desc": "Frontend project structures and practices, with starting points you can clone."
   },
   {
     "url": "https://inversify-props.ckgrafico.com",
-    "logo": "🪼",
     "title": "inversify-props",
-    "desc": "Dependency injection without the boilerplate: Vue, Lit, vanilla TS.",
-    "install": "npm i inversify-props"
+    "desc": "Dependency injection for Vue, Lit and vanilla TypeScript."
   },
   {
     "url": "https://inversify-hooks.ckgrafico.com",
-    "logo": "🪝",
     "title": "inversify-hooks",
-    "desc": "Dependency injection for React in a single <code>useInject()</code> hook.",
-    "install": "npm i inversify-hooks"
+    "desc": "Dependency injection for React through a single <code>useInject()</code> hook."
   },
   {
     "url": "https://doodle.ckgrafico.com",
-    "logo": "✏️",
     "title": "Doodle Games",
-    "tag": "for fun",
-    "desc": "Six hand-drawn sports games in Three.js, no build step: padel, football, golf, water polo, pétanque and pickleball.",
-    "linkLabel": "Play in the browser ↗"
+    "desc": "Six hand-drawn sports games built with Three.js. Play in your browser."
   },
   {
     "url": "https://github.com/CKGrafico",
-    "logo": "⭐",
-    "title": "+ everything else",
-    "desc": "Agentic Workflows, opencode-market, Remote Teams, lazy-analytics and 100+ more repos, across GitHub and the Platform org.",
-    "linkLabel": "github.com/CKGrafico ↗"
+    "title": "More on GitHub",
+    "desc": "Other tools, libraries and experiments."
   }
 ]

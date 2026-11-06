@@ -23,6 +23,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Read weekly writing selection
+        shell: bash
+        run: |
+          status=0
+          git ls-remote --exit-code origin refs/heads/feature/linkedin-articles > /dev/null || status=$?
+          if [ "$status" -eq 0 ]; then
+            git fetch --depth=1 --no-tags origin refs/heads/feature/linkedin-articles
+            git show FETCH_HEAD:data/writing.json > data/writing.json
+          elif [ "$status" -ne 2 ]; then
+            echo "Could not check the writing branch. Keeping the published site unchanged."
+            exit 1
+          fi
+      - name: Check writing selection
+        run: node --test scripts/writing.test.mjs
       - name: Build static site
         run: node build.mjs
       - uses: actions/configure-pages@v5

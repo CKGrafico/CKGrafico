@@ -1,7 +1,9 @@
 {
-  "intro": "For six years I gave talks across Europe, in Spanish and English. A meetup of ten or a conference of two thousand got the same preparation. I never called myself a speaker; I just cared about the room, whoever was in it.",
-  "tags": ["27 talks", "2016-2022", "6 countries", "Spanish / English"],
+  "intro": "I speak about the work I do, from TypeScript and frontend development to engineering with AI agents. These are talks from conferences and meetups across Europe, in Spanish and English.",
+  "tags": ["29 talks", "2016-2026", "6 countries", "Spanish / English"],
   "talks": [
+    { "year": "2026", "title": "NetCoreConf Madrid", "desc": "De una issue a producción con GitHub Agentic Workflows.", "location": "Madrid · 23 Oct", "kind": "slides", "url": "https://platform.ckgrafico.com" },
+    { "year": "2026", "title": "Stripe BCN x Builders Cafe", "desc": "Loop engineering: how agentic looping works at scale.", "location": "Barcelona", "kind": "event", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485378132649267200/" },
     { "year": "2022", "title": "Google DevFest", "desc": "Why and how to become a Google Developer Expert.", "location": "Bucharest", "kind": "slides", "url": "https://docs.google.com/presentation/d/1eWSxLG7w7tPQ1P3SPF_h3YmeorOZxhlh2OrunIFXTpk/edit" },
     { "year": "2019", "title": "Vue.js Amsterdam", "desc": "Empowering Vue with TypeScript, Inversify &amp; Vuex.", "location": "Amsterdam", "kind": "slides", "url": "https://www.slideshare.net/CKGrafico/empowering-vue-with-typescript-inversify-vuex-and-some-other-super-tools-131901058" },
     { "year": "2019", "title": "dotNET Spain", "desc": "Empowering Vue with TypeScript, Inversify, Vuex and other super tools.", "location": "Madrid", "kind": "video", "url": "https://www.youtube.com/watch?v=Uw7y1ZISC6g" },

@@ -1,10 +1,11 @@
 ## Active Projects:
 
-- 🧰 [agent-harness - Prepare any codebase for AI agents](https://plainconceptsplatform.github.io/agent-harness/) · `npx @plainconceptsplatform/agent-harness`
-- 🧵 [loop-task - Any command or agent on a cadence, from one terminal board](https://github.com/PlainConceptsPlatform/loop-task) · `npm i -g @plainconceptsplatform/loop-task`
-- 📊 [project-health - DORA metrics read straight from the GitHub API](https://plainconceptsplatform.github.io/project-health/)
+- [Platform Foundations - Shared theme, engineering conventions and reference architecture](https://platform.plainconcepts.dev)
+- [Agent Harness - Set up a repository for AI agents](https://harness.platform.plainconcepts.dev)
+- [Agentic Workflows - From GitHub issues to reviewed pull requests](https://workflows.platform.plainconcepts.dev)
+- [Project Health - Engineering checks, delivery and AI adoption from GitHub](https://health.platform.plainconcepts.dev)
 
-<sub>Those three are built with the Platform team at <a href="https://github.com/PlainConceptsPlatform">Plain Concepts</a>.</sub>
+<sub>Those four are built with the Platform team at <a href="https://github.com/PlainConceptsPlatform">Plain Concepts</a>.</sub>
 
 ## Most Starred:
 

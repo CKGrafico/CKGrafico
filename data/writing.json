@@ -1,0 +1,26 @@
+{
+  "checkedOn": "2026-11-06",
+  "articles": [
+    {
+      "title": "Trabajadores Listos vs Inteligentes: Un Airpod, una alcantarilla y una lección laboral",
+      "url": "https://www.linkedin.com/pulse/trabajadores-listos-vs-inteligentes-un-airpod-una-y-fdez-guerra-4enff/",
+      "publishedAt": "2024-12-19",
+      "lang": "es",
+      "readingMinutes": 3
+    },
+    {
+      "title": "Hola programador senior: dime qué IA usas (y por favor, que ya usas alguna)",
+      "url": "https://www.linkedin.com/pulse/hola-programador-senior-dime-qu%C3%A9-ia-usas-y-por-favor-que-fdez-guerra-ndmjf/",
+      "publishedAt": "2025-09-16",
+      "lang": "es",
+      "readingMinutes": 6
+    },
+    {
+      "title": "La tercera era dorada de la ingeniería de software",
+      "url": "https://www.linkedin.com/pulse/la-tercera-era-dorada-de-ingenier%C3%ADa-software-quique-fdez-guerra-idt3e/",
+      "publishedAt": "2026-03-30",
+      "lang": "es",
+      "readingMinutes": 6
+    }
+  ]
+}
