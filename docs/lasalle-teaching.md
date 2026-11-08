@@ -2,7 +2,7 @@
 
 The About copy identifies Enrique Fernández Guerra as a professor at La Salle-URL and links to the exact official programme title, “Master of Science in Artificial Intelligence for Business Management.” La Salle's official programme page describes AI applied to business management and leading change-management processes.
 
-The teaching areas “AI for business” and “change management” reflect Quique's clarification. The site presents them as areas he teaches, not as official module titles: La Salle's public pages reviewed for this update did not assign specific modules to him.
+The teaching areas “AI for Business” and “Change Management,” including Change Management on both master's programmes, reflect Quique's clarification. The site presents them as areas he teaches, not as official module titles: La Salle's public pages reviewed for this update did not assign specific modules to him.
 
 Sources:
 
